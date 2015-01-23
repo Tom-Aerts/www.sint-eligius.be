@@ -1,0 +1,79 @@
+/*Main*/
+h1,h2,h3,h4,h5,h6,p,a
+{
+	font-family: 'Handlee', cursive;
+}
+
+body
+{
+	background-color: #17AEFF;
+	background-image: url("/images/achtergrond.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+div
+{
+	border: solid 1px #000;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+.floatright
+{
+	float: right;
+}
+
+
+/*Header*/
+.header
+{
+	display: inline-block;
+	margin-left: 212px;
+	margin-right: 212px;
+}
+
+.logo-leftheader
+{
+	display: inline-block;
+}
+
+.title
+{
+	display: inline-block;
+}
+
+.title > h1
+{
+	color: #fff;
+}
+
+.logo-rightheader
+{
+	display: inline-block;
+}
+
+.slogan
+{
+	display: inline-block;
+	margin-left: 112px;
+	margin-right: 112px;
+}
+
+.slogan > h3
+{
+	color: #fff;
+}
+
+/*Contentpage*/
+.bord-left
+{
+	display: inline-block;
+	background-color: green;
+	height: 400px;
+	width: 200px;
+	margin-left: -100px;
+}
