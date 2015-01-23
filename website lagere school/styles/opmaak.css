@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;   
+}
+body{
+  background-color: #17AEFF;
+  background-image: url("/images/achtergrond3.png");
+  background-position: bottom;
+  background-repeat:repeat-x
+}
