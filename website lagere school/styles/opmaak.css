@@ -10,6 +10,8 @@ body
 	background-image: url("/images/achtergrond.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 div
@@ -37,7 +39,7 @@ div
 {
 	display: inline-block;
 	width: auto;
-	margin-left: 475px;
+	margin-left: 125px;
 	vertical-align: center;
 	text-align: center;
 }
@@ -66,8 +68,7 @@ div
 .slogan
 {
 	display: inline-block;
-	margin-left: 325px;
-	
+	margin-left: 265px;	
 }
 
 .slogan > h3
@@ -85,28 +86,28 @@ div
 .bord-left
 {
 	display: inline-block;
-	width: 300px;
+	width: 250px;
 	height: 500px;
-	background-color: green;
-	margin-left: -100px;
+	margin-left: 50px;
+	background-color: #006837;
 	border: solid 10px #000;
 }
 
 .bord-mid
 {
 	display: inline-block;
-	width: 900px;
+	width: 600px;
 	height: 500px;
-	background-color: green;
+	background-color: #006837;
 	border: solid 10px #000;
 }
 
 .bord-right
 {
 	display: inline-block;
-	width: 300px;
+	width: 250px;
 	height: 500px;
-	background-color: green;
+	background-color: #006837;
 	margin-right: -100px;
 	border: solid 10px #000;
 }
@@ -114,5 +115,27 @@ div
 /*Bottom*/
 .footer
 {
-	
+	margin-left: 305px;
+	margin-right: 310px;
+	background-color: #fff;
+}
+
+.footer-kantlijn
+{
+	width: 15%;
+}
+
+.logo-footer > img
+{
+	height: 50%;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.footer-kantlijn-tekst
+{
+	width: 88px;
+	height: 66px;
 }
