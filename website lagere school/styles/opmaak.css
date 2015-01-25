@@ -27,13 +27,19 @@ div
 	float: right;
 }
 
+/*Top*/
+.top
+{
+	display: block;
+}
 
-/*Header*/
 .header
 {
 	display: inline-block;
-	margin-left: 212px;
-	margin-right: 212px;
+	width: auto;
+	margin-left: 475px;
+	vertical-align: center;
+	text-align: center;
 }
 
 .logo-leftheader
@@ -49,6 +55,7 @@ div
 .title > h1
 {
 	color: #fff;
+	font-size: 36pt;
 }
 
 .logo-rightheader
@@ -59,21 +66,53 @@ div
 .slogan
 {
 	display: inline-block;
-	margin-left: 112px;
-	margin-right: 112px;
+	margin-left: 325px;
+	
 }
 
 .slogan > h3
 {
 	color: #fff;
+	font-size: 22pt;
 }
 
-/*Contentpage*/
+/*Middle*/
+.middle
+{
+	display: block;
+}
+
 .bord-left
 {
 	display: inline-block;
+	width: 300px;
+	height: 500px;
 	background-color: green;
-	height: 400px;
-	width: 200px;
 	margin-left: -100px;
+	border: solid 10px #000;
+}
+
+.bord-mid
+{
+	display: inline-block;
+	width: 900px;
+	height: 500px;
+	background-color: green;
+	border: solid 10px #000;
+}
+
+.bord-right
+{
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	background-color: green;
+	margin-right: -100px;
+	border: solid 10px #000;
+}
+
+/*Bottom*/
+.footer
+{
+	
 }
