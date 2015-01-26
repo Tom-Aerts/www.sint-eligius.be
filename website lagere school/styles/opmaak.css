@@ -1,9 +1,144 @@
+/*Main*/
 html, body {
   height: 100%;   
 }
-body{
-  background-color: #17AEFF;
-  background-image: url("/images/achtergrond3.png");
-  background-position: bottom;
-  background-repeat:repeat-x
+h1,h2,h3,h4,h5,h6,p,a
+{
+	font-family: 'Handlee', cursive;
+}
+
+body
+{
+	background-color: #17AEFF;
+	background-image: url("/images/achtergrond.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+div
+{
+	border: solid 1px #000;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+.floatright
+{
+	float: right;
+}
+
+/*Top*/
+.top
+{
+	display: block;
+}
+
+.header
+{
+	display: inline-block;
+	width: auto;
+	margin-left: 125px;
+	vertical-align: center;
+	text-align: center;
+}
+
+.logo-leftheader
+{
+	display: inline-block;
+}
+
+.title
+{
+	display: inline-block;
+}
+
+.title > h1
+{
+	color: #fff;
+	font-size: 36pt;
+}
+
+.logo-rightheader
+{
+	display: inline-block;
+}
+
+.slogan
+{
+	display: inline-block;
+	margin-left: 265px;	
+}
+
+.slogan > h3
+{
+	color: #fff;
+	font-size: 22pt;
+}
+
+/*Middle*/
+.middle
+{
+	display: block;
+}
+
+.bord-left
+{
+	display: inline-block;
+	width: 250px;
+	height: 500px;
+	margin-left: 50px;
+	background-color: #006837;
+	border: solid 10px #000;
+}
+
+.bord-mid
+{
+	display: inline-block;
+	width: 600px;
+	height: 500px;
+	background-color: #006837;
+	border: solid 10px #000;
+}
+
+.bord-right
+{
+	display: inline-block;
+	width: 250px;
+	height: 500px;
+	background-color: #006837;
+	margin-right: -100px;
+	border: solid 10px #000;
+}
+
+/*Bottom*/
+.footer
+{
+	margin-left: 305px;
+	margin-right: 310px;
+	background-color: #fff;
+}
+
+.footer-kantlijn
+{
+	width: 15%;
+}
+
+.logo-footer > img
+{
+	height: 50%;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.footer-kantlijn-tekst
+{
+	width: 88px;
+	height: 66px;
 }
