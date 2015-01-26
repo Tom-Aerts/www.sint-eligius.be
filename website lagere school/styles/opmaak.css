@@ -13,14 +13,11 @@ body
 	background-image: url("../images/ster-links.png"), url("../images/ster-rechts.png"), url("../images/achtergrond.png");
 	background-repeat: no-repeat, no-repeat, repeat-x;
 	background-position: top left, top right, bottom;
+	margin-top: 10px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-div
-{
-	border: solid 1px #000;
-}
 
 .floatleft
 {
@@ -42,7 +39,7 @@ div
 {
 	display: inline-block;
 	width: auto;
-	margin-left: 125px;
+	margin-left: 33%;
 	vertical-align: center;
 	text-align: center;
 }
@@ -89,9 +86,14 @@ div
 .bord-left
 {
 	display: inline-block;
+}
+
+.bord-left-achtergrond
+{
+	display: inline-block;
 	width: 250px;
 	height: 500px;
-	margin-left: 50px;
+	margin-left: 53px;
 	background-color: #006837;
 	border: solid 10px #000;
 }
@@ -118,8 +120,8 @@ div
 /*Bottom*/
 .footer
 {
-	margin-left: 305px;
-	margin-right: 310px;
+	margin-left: 306px;
+	margin-right: 309px;
 	margin-top: 50px;
 	background-image: url("../images/linedpaper.png");
 }
