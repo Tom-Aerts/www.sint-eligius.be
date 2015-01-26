@@ -10,9 +10,9 @@ h1,h2,h3,h4,h5,h6,p,a
 body
 {
 	background-color: #17AEFF;
-	background-image: url("../images/achtergrond.png");
-	background-repeat: repeat-x;
-	background-position: bottom;
+	background-image: url("../images/ster-links.png"), url("../images/ster-rechts.png"), url("../images/achtergrond.png");
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: top left, top right, bottom;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -120,12 +120,14 @@ div
 {
 	margin-left: 305px;
 	margin-right: 310px;
+	margin-top: 50px;
 	background-image: url("../images/linedpaper.png");
 }
 
 .footer-kantlijn
 {
-	width: 15%;
+	width: 88px;
+	border-right: solid 1px red;
 }
 
 .logo-footer > img
@@ -140,5 +142,5 @@ div
 .footer-kantlijn-tekst
 {
 	width: 88px;
-	height: 66px;
+	height: 26px;
 }
