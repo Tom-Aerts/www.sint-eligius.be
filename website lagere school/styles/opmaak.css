@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p,a
 body
 {
 	background-color: #17AEFF;
-	background-image: url("/images/achtergrond.png");
+	background-image: url("../images/achtergrond.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
 	margin-left: 5%;
@@ -120,7 +120,7 @@ div
 {
 	margin-left: 305px;
 	margin-right: 310px;
-	background-color: #fff;
+	background-image: url("../images/linedpaper.png");
 }
 
 .footer-kantlijn
