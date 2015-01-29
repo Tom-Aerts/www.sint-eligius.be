@@ -118,8 +118,18 @@ body
 	margin-right: -100px;
 	border: solid 10px #000;
 	vertical-align: bottom;
+	word-break: break-all;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
 }
 
+.bord-right > p
+{
+	border-bottom: solid;
+	padding-bottom: 10px;
+
+}
 /*Bottom*/
 .footer
 {
