@@ -107,6 +107,60 @@ body
 	background-color: #006837;
 	border: solid 10px #000;
 	vertical-align: bottom;
+	word-break: break-all;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+}
+.bord-mid > h1
+{
+	border-bottom: double;
+	border-width: auto;
+	width: 210px;
+}
+
+.bord-mid > h2
+{
+	width: 150px;
+}
+
+.hoofdartikel
+{
+	border-bottom: solid;
+	padding-bottom: 10px;
+}
+
+.SubArt1
+{
+	border-right: solid;
+	border-width: auto;
+	padding-right: 20px;
+	width: 180px;
+	border-bottom: none!important;
+	float: left;
+	display: inline-block;
+	top: 20px;
+}
+
+.SubArt2
+{
+	border-right: solid;
+	border-width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 200px;
+	border-bottom: none!important;
+	float: left;
+	display: inline-block;
+}
+
+.SubArt3
+{
+	padding-left: 20px;
+	width: 180px;
+	border-bottom: none!important;
+	float: left;
+	display: inline-block;
 }
 
 .bord-right
