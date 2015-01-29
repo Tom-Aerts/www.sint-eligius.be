@@ -96,6 +96,7 @@ body
 	margin-left: 53px;
 	background-color: #006837;
 	border: solid 10px #000;
+	vertical-align: bottom;
 }
 
 .bord-mid
@@ -105,6 +106,7 @@ body
 	height: 500px;
 	background-color: #006837;
 	border: solid 10px #000;
+	vertical-align: bottom;
 }
 
 .bord-right
@@ -115,6 +117,7 @@ body
 	background-color: #006837;
 	margin-right: -100px;
 	border: solid 10px #000;
+	vertical-align: bottom;
 }
 
 /*Bottom*/
