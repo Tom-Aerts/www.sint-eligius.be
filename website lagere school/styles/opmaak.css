@@ -215,7 +215,7 @@ body
 .footer
 {
 	margin-left: 306px;
-	margin-right: 309px;
+	margin-right: 287px;
 	margin-top: 50px;
 	background-image: url("../images/linedpaper.png");
 }
@@ -224,6 +224,7 @@ body
 {
 	width: 88px;
 	border-right: solid 1px red;
+	float: left;
 }
 
 .logo-footer > img
@@ -239,4 +240,22 @@ body
 {
 	width: 88px;
 	height: 26px;
+}
+
+.footer-adresgegevens
+{
+	width: 180px;
+	margin-left: 20px;
+	height: 95px;
+	overflow:auto;
+	display: inline-block;
+	padding-top: 5px;
+}
+.footer-contactgegevens
+{
+	width: 290px;
+	height: 95px;
+	overflow:auto;
+	display: inline-block;
+	padding-top: 5px;
 }
