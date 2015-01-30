@@ -126,8 +126,7 @@ body
 
 .hoofdartikel
 {
-	border-bottom: solid;
-	padding-bottom: 10px;
+	border-bottom: solid;dddddd
 }
 
 .SubArt1
@@ -189,6 +188,8 @@ body
 /*Menu*/
 #menutree li {
    list-style: none;          /* all list item li dots invisible */
+    color: #fff;
+    font-family: 'Handlee', cursive;
          }
 
    li .menu_label + input[type=checkbox] {
