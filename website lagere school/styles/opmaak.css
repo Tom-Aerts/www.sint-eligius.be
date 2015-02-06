@@ -114,11 +114,12 @@ height:auto !important;        /* for IE as it does not support min-height */
 height:500px; 
 	background-color: #006837;
 	border: solid 10px #000;
-	vertical-align: bottom;
+	vertical-align: top;
 	word-break: break-all;
 	padding-left: 10px;
 	padding-right: 10px;
 	color: white;
+    
 }
 .bord-mid > h1
 {
@@ -181,7 +182,7 @@ height:500px;
 	background-color: #006837;
 	margin-right: -100px;
 	border: solid 10px #000;
-	vertical-align: bottom;
+	vertical-align: top;
 	word-break: break-all;
 	padding-left: 10px;
 	padding-right: 10px;
