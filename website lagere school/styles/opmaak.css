@@ -76,6 +76,9 @@ body {
     border: solid 10px #000;
     vertical-align: bottom;
 }
+.search-icon {
+    height: 18px;
+}
 .bord-mid {
     display: inline-block;
     width: 600px;
