@@ -177,5 +177,13 @@
     </div>
     
   </div>
+    
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+    $(".wifeo_rubrique").on("click", function() {
+        $(".wifeo_sousmenu").removeClass("wifeo_sousmenu-visible");
+        $(this).find(".wifeo_sousmenu").addClass("wifeo_sousmenu-visible");
+    });
+    </script>
 </body>
 </html>
