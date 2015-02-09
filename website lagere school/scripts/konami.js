@@ -1,21 +1,23 @@
+;
 (function($) {
+    $.fn.konami = (function(styles, duration, easing, callback) {
+        var $this = $(this),
+            input = [],
+            command = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+        input = command.slice(0);
 
-	$.fn.konami = function(callback, code) {
-		if(code == undefined) code = "38,38,40,40,37,39,37,39,66,65";
-		
-		return this.each(function() {
-			var kkeys = [];
-			$(this).keydown(function(e){
-				kkeys.push( e.keyCode );
-				while (kkeys.length > code.split(',').length) {
-					kkeys.shift();
-				}
-				if ( kkeys.toString().indexOf( code ) >= 0 ){
-					$(this).unbind('keydown', arguments.callee);
-					callback(e);
-				}
-			}, true);
-		});
-	}
+        $(window).on("keyup", function(e) {
+            var key = e.keyCode;
 
+            if (key == input[0]) {
+                input.shift();
+
+                if (input.length == 0) {
+                    return alert("You are awesome");
+                }
+            } else {
+                input = command.slice(0);
+            }
+        });
+    });
 })(jQuery);
