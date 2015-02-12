@@ -27,9 +27,9 @@ body {
     display: block;
 }
 .header {
-    display: inline-block;
+    display: block;
     width: 500px;
-    margin-left: 30%;
+    margin: 0 auto;
     vertical-align: center;
     text-align: center;
 }
@@ -47,17 +47,20 @@ body {
     display: inline-block;
 }
 .slogan {
-    display: inline-block;
-    margin-left: 265px;
+    display: block;
+margin: 0 auto;
 }
 .slogan > h3 {
     color: #fff;
     font-size: 22pt;
+    text-align: center;
 }
 /*Middle*/
 
 .middle {
     display: block;
+    margin: 0 auto;
+    width: 1160px;
 }
 .bord-left {
     display: inline-block;
@@ -71,7 +74,6 @@ body {
     /* for IE as it does not support min-height */
     
     height: 500px;
-    margin-left: 53px;
     background-color: #006837;
     border: solid 10px #000;
     vertical-align: bottom;
@@ -144,7 +146,6 @@ body {
     
     height: 500px;
     background-color: #006837;
-    margin-right: -100px;
     border: solid 10px #000;
     vertical-align: top;
     word-break: break-all;
@@ -288,8 +289,6 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 
 .footer {
     width: 1110px;
-    margin-left: 52px;
-    margin-right: 308px;
     margin-top: 23px;
     border-top: 1px solid #0665ad;
 }
@@ -299,8 +298,6 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     float: left;
 }
 .logo-footer > img {
-    height: 50%;
-    width: 50%;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 5px;
