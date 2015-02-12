@@ -64,9 +64,6 @@ margin: 0 auto;
 }
 .bord-left {
     display: inline-block;
-}
-.bord-left-achtergrond {
-    display: inline-block;
     width: 250px;
     height: auto;
     min-height: 500px;
@@ -83,6 +80,8 @@ margin: 0 auto;
 }
 .bord-mid {
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 600px;
     height: auto;
     min-height: 500px;
@@ -215,19 +214,19 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 }
 .wifeo_conteneur_menu {
     height: auto;
-    width: 230px
+    width: 200px
 }
 .wifeo_pagemenu, .wifeo_rubrique {
     background-color: #006837;
-    width: 230px
+    width: 200px;
 }
 .wifeo_pagemenu > a, .wifeo_rubrique > a {
     text-align: left;
-    width: 230px
+    width: 200px;
 }
 .wifeo_pagemenu:hover, .wifeo_rubrique:hover {
     background-color: #3CA473;
-    width: 230px
+    width: 200px;
 }
 .wifeo_conteneur_menu a {
     text-decoration: none;
@@ -291,21 +290,22 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     width: 1110px;
     margin-top: 23px;
     border-top: 1px solid #0665ad;
+    display: block;
+    float:left;
 }
-.footer-kantlijn {
-    width: 140px;
-    height: 100px;
-    float: left;
+
+.logo-footer
+{
+    display: inline-block;
+    float:left;
 }
+
 .logo-footer > img {
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 5px;
 }
-.footer-kantlijn-tekst {
-    width: 88px;
-    height: 26px;
-}
+
 .footer-adresgegevens {
     width: 400px;
     margin-left: 100px;
