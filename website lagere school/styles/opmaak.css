@@ -335,8 +335,6 @@ Prikbord
 #prikbord{
     height:500px;
     width: 1130px;
-    background-color:;
-    margin-left: 85px;
     background-image: url(../images/kurk.jpg);
     border: 8px solid;
     border-radius: 25px;
@@ -349,8 +347,8 @@ Prikbord
     width: 400px;
     display: inline-block;
     background-color: wheat;
-    margin-left: 100;
-    margin-top: 12;
+    margin-left: 100px;
+    margin-top: 12px;
     box-shadow: 5px 5px 5px #000; 
     position: relative;
     vertical-align: bottom;
@@ -367,8 +365,8 @@ Prikbord
   height: 150px;
   width: 150px;
   background-color:;
-  margin-left: 36;
-  margin-top: -2;
+  margin-left: 36px;
+  margin-top: -2px;
   vertical-align: bottom;
 }
 .teksttwee{
@@ -376,7 +374,7 @@ Prikbord
   width: 195px;
   background-color:;
   margin-top: -145px;
-  margin-left: 190;
+  margin-left: 190px;
   vertical-align: top;
 }
 .leerkrachten{
@@ -392,7 +390,6 @@ span.text-content {
   cursor: pointer;
   display: table;
   height: 150px;
-  left: 0;
   position: absolute;
   top: 0;
   width: 150px;
@@ -409,7 +406,7 @@ span.text-content {
   height: 220px;
   left: 0;
   position: absolute;
-  top: 0;
+  
   width: 400px;
   opacity: 0;
 }
@@ -430,7 +427,7 @@ span.text-content {
   float: left;
   margin-top: 205px;
   margin-right: -100px;
-  margin-left: 16;
+  margin-left: 16px;
   background-image: url(../images/pijllinks.png);
   background-repeat: no-repeat;
 }
@@ -438,7 +435,7 @@ span.text-content {
   height: 64px;
   width: 64px;
   margin-left: 1033px;
-  margin-top: -257;
+  margin-top: -257px;
   background-image: url(../images/pijlrechts.png);
   background-repeat: no-repeat;
 }
