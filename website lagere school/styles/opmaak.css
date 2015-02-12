@@ -326,3 +326,133 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     padding-top: 10px;
     padding-left: 140px;
 }
+
+/*
+Prikbord
+*/
+
+/*het prikbord zelf*/
+#prikbord{
+    height:500px;
+    width: 1130px;
+    background-color:;
+    margin-left: 85px;
+    background-image: url(../images/kurk.jpg);
+    border: 8px solid;
+    border-radius: 25px;
+    border-color: brown;
+    vertical-align: bottom;
+}
+/*alle vakjes met de foto en korte informatie*/
+.profiel{
+    height: 220px;
+    width: 400px;
+    display: inline-block;
+    background-color: wheat;
+    margin-left: 100;
+    margin-top: 12;
+    box-shadow: 5px 5px 5px #000; 
+    position: relative;
+    vertical-align: bottom;
+}
+.duimspijker{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background-image: url(../images/duimspijker.png);
+  margin-top: 3px;
+  vertical-align: bottom;
+}
+.foto{
+  height: 150px;
+  width: 150px;
+  background-color:;
+  margin-left: 36;
+  margin-top: -2;
+  vertical-align: bottom;
+}
+.teksttwee{
+  height: 153px;
+  width: 195px;
+  background-color:;
+  margin-top: -145px;
+  margin-left: 190;
+  vertical-align: top;
+}
+.leerkrachten{
+  height: 150px;
+  width: 100px;
+  margin-left: 25px;
+  vertical-align: bottom;
+}
+/*de achterkant van het kartje*/
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: black;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  color: black;
+}
+span.text-content {
+  background-color: wheat;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 220px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 400px;
+  opacity: 0;
+}
+
+.profiel:hover span.text-content {
+  opacity: 1;
+}
+.alletext{
+  margin-left: 33px;
+  margin-top: -28px;
+  margin-right: 33px;
+  padding-top: 10px;
+}
+/*linkse en rechte pijl voor naar de volgende paginate gaan met de effecktjes*/
+#links{
+  height: 64px;
+  width: 64px;
+  float: left;
+  margin-top: 205px;
+  margin-right: -100px;
+  margin-left: 16;
+  background-image: url(../images/pijllinks.png);
+  background-repeat: no-repeat;
+}
+#rechts{
+  height: 64px;
+  width: 64px;
+  margin-left: 1033px;
+  margin-top: -257;
+  background-image: url(../images/pijlrechts.png);
+  background-repeat: no-repeat;
+}
+#links:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+#rechts:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
