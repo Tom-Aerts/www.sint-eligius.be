@@ -1,11 +1,14 @@
-/*Main*/
+/*Algemene pagina*/
 
+/*Main*/
 html, body {
     height: auto;
 }
+
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Handlee', cursive;
 }
+
 body {
     background-color: #17AEFF;
     background-image: url("../images/ster-links.png"), url("../images/ster-rechts.png");
@@ -15,17 +18,21 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .floatleft {
     float: left;
 }
+
 .floatright {
     float: right;
 }
-/*Top*/
 
+
+/*Top*/
 .top {
     display: block;
 }
+
 .header {
     display: block;
     width: 500px;
@@ -33,35 +40,43 @@ body {
     vertical-align: center;
     text-align: center;
 }
+
 .logo-leftheader {
     display: inline-block;
 }
+
 .title {
     display: inline-block;
 }
+
 .title > h1 {
     color: #fff;
     font-size: 36pt;
 }
+
 .logo-rightheader {
     display: inline-block;
 }
+
 .slogan {
     display: block;
-margin: 0 auto;
+    margin: 0 auto;
 }
+
 .slogan > h3 {
     color: #fff;
     font-size: 22pt;
     text-align: center;
 }
-/*Middle*/
 
+
+/*Middle*/
 .middle {
     display: block;
     margin: 0 auto;
     width: 1160px;
 }
+
 .bord-left {
     display: inline-block;
     width: 250px;
@@ -75,9 +90,16 @@ margin: 0 auto;
     border: solid 10px #000;
     vertical-align: bottom;
 }
+
+.navbar-form{
+    padding: 0px;
+    margin-top: 15px;
+}
+
 .search-icon {
     height: 18px;
 }
+
 .bord-mid {
     display: inline-block;
     margin-left: 5px;
@@ -97,17 +119,21 @@ margin: 0 auto;
     padding-right: 10px;
     color: white;
 }
+
 .bord-mid > h1 {
     border-bottom: double;
     border-width: auto;
     width: 210px;
 }
+
 .bord-mid > h2 {
     width: 150px;
 }
+
 .hoofdartikel {
     border-bottom: solid;
 }
+
 .SubArt1 {
     border-right: solid;
     border-width: auto;
@@ -118,6 +144,7 @@ margin: 0 auto;
     display: inline-block;
     top: 20px;
 }
+
 .SubArt2 {
     border-right: solid;
     border-width: auto;
@@ -128,6 +155,7 @@ margin: 0 auto;
     float: left;
     display: inline-block;
 }
+
 .SubArt3 {
     padding-left: 20px;
     width: 180px;
@@ -135,6 +163,7 @@ margin: 0 auto;
     float: left;
     display: inline-block;
 }
+
 .bord-right {
     display: inline-block;
     width: 250px;
@@ -152,16 +181,18 @@ margin: 0 auto;
     padding-right: 10px;
     color: white;
 }
+
 .noborder {
     border-bottom: none !important;
 }
+
 .bord-right > p {
     border-bottom: solid;
     padding-bottom: 10px;
 }
-.noborder {}
-/*Menu*/
 
+
+/*Menu*/
 #menutree li {
     list-style: none;
     /* all list item li dots invisible */
@@ -169,65 +200,76 @@ margin: 0 auto;
     color: #fff;
     font-family: 'Handlee', cursive;
 }
+
 li .menu_label + input[type=checkbox] {
     opacity: 0;
     /* checkboxes invisible and use no space */
 }
-/* display: none; is better but fails in ie8 */
 
 li .menu_label {
     cursor: pointer;
     /* cursor changes when you mouse over this class */
 }
-/* could add the many user-select: none; commands here */
 
 li .menu_label + input[type=checkbox] + ol > li {
     display: none;
     /* prevents sublists below unchecked labels from displaying */
 }
+
 li .menu_label + input[type=checkbox]:checked + ol > li {
     display: block;
     /* display submenu on click */
 }
+
 .wifeo_pagemenu > a {
     color: #FFFFFF;
     text-decoration: none
 }
+
 .wifeo_pagemenu:hover > a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
 .wifeo_rubrique > a {
     color: #FFFFFF;
     text-decoration: none
 }
+
 .wifeo_rubrique:hover > a {
     color: #FFFFFF;
     text-decoration: none
 }
+
 .wifeo_pagesousmenu > a {
     color: #FFFFFF;
     text-decoration: none
 }
+
 .wifeo_conteneur_menu {
     border-spacing: 0px
 }
+
 .wifeo_conteneur_menu {
     height: auto;
     width: 200px
 }
+
 .wifeo_pagemenu, .wifeo_rubrique {
     background-color: #006837;
     width: 200px;
 }
+
 .wifeo_pagemenu > a, .wifeo_rubrique > a {
     text-align: left;
     width: 200px;
 }
+
 .wifeo_pagemenu:hover, .wifeo_rubrique:hover {
     background-color: #3CA473;
     width: 200px;
 }
+
 .wifeo_conteneur_menu a {
     text-decoration: none;
     display: table-cell;
@@ -240,11 +282,13 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     -o-transition: all 0.50s ease;
     transition: all 0.50s ease
 }
+
 .wifeo_pagesousmenu {
     width: 100%;
     text-align: right;
     display: table
 }
+
 .wifeo_sousmenu {
     max-height: 0;
     width: 100%;
@@ -254,6 +298,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     margin-left: 0;
     visibility: hidden
 }
+
 @media screen and (min-device-width: 1024px) {
     .wifeo_sousmenu {
         -webkit-transition: all 0.50s ease;
@@ -263,6 +308,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
         transition: all 0.50s ease
     }
 }
+
 .wifeo_sousmenu a {
     height: 40px;
     background-color: #006837;
@@ -273,19 +319,22 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     -o-transition: font-size 0.50s ease;
     transition: font-size 0.50s ease
 }
+
 .wifeo_sousmenu a:hover {
     background: #000E00;
     font-size: 16px;
     border-right: 7px solid #33CC66
 }
+
 .wifeo_sousmenu-visible {
     visibility: visible;
     opacity: 1;
     max-height: 15em;
     display: table
 }
-/*Bottom*/
 
+
+/*Bottom*/
 .footer {
     width: 1110px;
     margin-top: 23px;
@@ -294,8 +343,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     float:left;
 }
 
-.logo-footer
-{
+.logo-footer{
     display: inline-block;
     float:left;
 }
@@ -315,6 +363,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     padding-top: 10px;
     padding-left: 140px;
 }
+
 .footer-contactgegevens {
     width: 400px;
     height: 100px;
@@ -324,12 +373,13 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     padding-left: 140px;
 }
 
-/*
-Prikbord
-*/
+
+
+/*Prikbord*/
+
 
 /*het prikbord zelf*/
-#prikbord{
+#prikbord {
     height:500px;
     width: 1130px;
     background-image: url(../images/kurk.jpg);
@@ -338,8 +388,9 @@ Prikbord
     border-color: brown;
     vertical-align: bottom;
 }
+
 /*alle vakjes met de foto en korte informatie*/
-.profiel{
+.profiel {
     height: 220px;
     width: 400px;
     display: inline-block;
@@ -350,7 +401,8 @@ Prikbord
     position: relative;
     vertical-align: bottom;
 }
-.duimspijker{
+
+.duimspijker {
   height: 30px;
   width: 30px;
   display: inline-block;
@@ -358,7 +410,8 @@ Prikbord
   margin-top: 3px;
   vertical-align: bottom;
 }
-.foto{
+
+.foto {
   height: 150px;
   width: 150px;
   background-color:;
@@ -366,7 +419,8 @@ Prikbord
   margin-top: -2px;
   vertical-align: bottom;
 }
-.teksttwee{
+
+.teksttwee {
   height: 153px;
   width: 195px;
   background-color:;
@@ -374,12 +428,15 @@ Prikbord
   margin-left: 190px;
   vertical-align: top;
 }
-.leerkrachten{
+
+.leerkrachten {
   height: 150px;
   width: 100px;
   margin-left: 25px;
   vertical-align: bottom;
 }
+
+
 /*de achterkant van het kartje*/
 span.text-content {
   background: rgba(0,0,0,0.5);
@@ -395,6 +452,7 @@ span.text-content {
 span.text-content span {
   color: black;
 }
+
 span.text-content {
   background-color: wheat;
   color: white;
@@ -403,7 +461,6 @@ span.text-content {
   height: 220px;
   left: 0;
   position: absolute;
-  
   width: 400px;
   opacity: 0;
 }
@@ -411,12 +468,15 @@ span.text-content {
 .profiel:hover span.text-content {
   opacity: 1;
 }
-.alletext{
+
+.alletext {
   margin-left: 33px;
   margin-top: -28px;
   margin-right: 33px;
   padding-top: 10px;
 }
+
+
 /*linkse en rechte pijl voor naar de volgende paginate gaan met de effecktjes*/
 #links{
   height: 64px;
@@ -428,7 +488,8 @@ span.text-content {
   background-image: url(../images/pijllinks.png);
   background-repeat: no-repeat;
 }
-#rechts{
+
+#rechts {
   height: 64px;
   width: 64px;
   margin-left: 1033px;
@@ -436,14 +497,16 @@ span.text-content {
   background-image: url(../images/pijlrechts.png);
   background-repeat: no-repeat;
 }
-#links:hover{
+
+#links:hover {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
 }
-#rechts:hover{
+
+#rechts:hover {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
