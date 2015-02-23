@@ -79,6 +79,18 @@ body {
 
 
 /*Middle*/
+a {
+    text-decoration: none;
+    color: #17AEFF;
+}
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
 .middle {
     display: block;
     margin: 0 auto;
