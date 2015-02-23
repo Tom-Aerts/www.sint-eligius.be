@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 p {
-    word-break: normal;
+    word-wrap: break-word;
 }
 
 body {
@@ -105,7 +105,7 @@ body {
 }
 
 .search-icon {
-    height: 18px;
+    height: 17px;
 }
 
 .bord-mid {
@@ -122,7 +122,6 @@ body {
     background-color: #006837;
     border: solid 10px #000;
     vertical-align: top;
-    word-break: break-all;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
@@ -143,8 +142,6 @@ body {
 }
 
 .SubArt1 {
-    border-right: solid;
-    border-width: auto;
     padding-right: 20px;
     width: 180px;
     border-bottom: none!important;
@@ -153,10 +150,8 @@ body {
 }
 
 .SubArt2 {
-    border-right: solid;
-    border-width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 200px;
     border-bottom: none!important;
     float: left;
@@ -164,7 +159,7 @@ body {
 }
 
 .SubArt3 {
-    padding-left: 20px;
+    padding-left: 10px;
     width: 180px;
     border-bottom: none!important;
     float: left;
@@ -183,7 +178,6 @@ body {
     background-color: #006837;
     border: solid 10px #000;
     vertical-align: top;
-    word-break: break-all;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
@@ -198,10 +192,6 @@ body {
     padding-bottom: 10px;
 }
 
-.bord-right > p > a {
-    text-decoration: none;
-    color: #fff;
-}
 
 /*Menu*/
 #menutree li {
