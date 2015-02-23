@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Handlee', cursive;
 }
 
+p {
+    word-break: normal;
+}
+
 body {
     background-color: #17AEFF;
     background-image: url("../images/ster-links.png"), url("../images/ster-rechts.png");
@@ -146,7 +150,6 @@ body {
     border-bottom: none!important;
     float: left;
     display: inline-block;
-    top: 20px;
 }
 
 .SubArt2 {
@@ -195,6 +198,10 @@ body {
     padding-bottom: 10px;
 }
 
+.bord-right > p > a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /*Menu*/
 #menutree li {
