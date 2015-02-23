@@ -153,6 +153,11 @@ a:active {
     border-bottom: solid;
 }
 
+.afbeelding-rechts {
+    max-height: 180px;
+    margin-left: 10px;
+}
+
 .SubArt1 {
     padding-right: 20px;
     width: 180px;
