@@ -534,3 +534,7 @@ span.text-content {
     color: white;
     font-family: 'Handlee', cursive;
 }
+.button > a
+{
+  text-decoration: none;
+}
