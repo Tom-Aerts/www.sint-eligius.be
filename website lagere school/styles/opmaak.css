@@ -517,10 +517,20 @@ span.text-content {
 .ButtonHome
 {
     height: 50px;
+    float: left;
+    display: block;
+}
+.button
+{
+    position: absolute;;
+    margin-top: -60px;
+    margin-left: 80px;
+    width: 210px;
 }
 .home
 {
-  position: absolute;;
-  margin-top: -60px;
-  margin-left: 100px;
+    display: block;
+    float: left;
+    color: white;
+    font-family: 'Handlee', cursive;
 }
