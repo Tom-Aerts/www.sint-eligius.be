@@ -518,3 +518,9 @@ span.text-content {
 {
     height: 50px;
 }
+.home
+{
+  position: absolute;;
+  margin-top: -60px;
+  margin-left: 100px;
+}
