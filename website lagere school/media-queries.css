@@ -1,32 +1,33 @@
-@media only screen and (max-width:999px) {
+@media only screen and (max-width:950px) {
 
-	.bord-left {
-		margin-left:  10px;
-	}
-
-	.middle {
-		width:  1160px;
-		margin:  0px auto;
-	}
-
-	.container {
-		padding-left:  0px;
-		padding-right:  15px;
-		margin-left:  auto;
-		margin-right:  auto;
-		width:  930px;
+	.bord-mid {
+		width:  750px;
+		margin-left:  65px;
 	}
 
 	.bord-right {
-		margin-left:  315px;
+		width:  750px;
+		margin-left:  65px;
 	}
 
 	.footer {
-		margin-left:  15px;
+		width:  600px;
 	}
 
-	.slogan {
-		width:  906px;
+	.footer-adresgegevens {
+		margin-left:  50px;
+	}
+
+	.footer-contactgegevens {
+		width:  250px;
+		padding-left:  140px;
+	}
+
+	null {
+		padding-left:  0px;
+	}
+
+	.logo-footer {
 	}
 
 }

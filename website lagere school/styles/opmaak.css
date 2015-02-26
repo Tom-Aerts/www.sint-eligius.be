@@ -393,7 +393,7 @@ nav > li > a:hover {
     background-color: #3CA473;
 }
 
-@media (max-width:767px) {
+@media (max-width:1000px) {
     .my-custom-nav .navbar-collapse .navbar-nav > li {
         padding-left:10px!important;
     }
