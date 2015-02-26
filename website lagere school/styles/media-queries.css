@@ -1,0 +1,99 @@
+@media only screen and (max-width:1300px) {
+
+	.bord-mid {
+		width:  600px;
+		margin-left: 5px;
+	}
+	.art1 {
+		padding-right: 20px;
+    width: 180px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+	.art2 {
+		padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+	.art3 {
+		padding-left: 10px;
+    width: 180px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+
+	.bord-right {
+		width:  600px;
+		margin-top:  5px;
+		margin-left:  425px;
+	}
+
+	.bord-left {
+		width:  300px;
+		margin-left:  120px;
+		
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	}
+
+	.wifeo_conteneur_menu {
+		width:  250px;
+	}
+
+	.wifeo_pagemenu, .wifeo_rubrique {
+		width:  260px;
+	}
+
+	.wifeo_sousmenu-visible {
+		width:  260px;
+	}
+
+	.wifeo_pagesousmenu {
+		width:  260px;
+	}
+
+	.wifeo_pagemenu:hover, .wifeo_rubrique:hover {
+    background-color: #3CA473;
+    width: 260px;
+	}
+	
+	.footer-contactgegevens {
+		padding-left:  20px;
+		width:  250px;
+	}
+
+	.footer-adresgegevens {
+		padding-left:  20px;
+		width:  250px;
+	}
+
+	.footer {
+		width:  900px;
+		margin-left:  130px;
+	}
+
+}
+@media only screen and (max-width:1200px) {
+
+	.bord-left {
+		margin-left:  15px;
+	}
+
+	.bord-right {
+		margin-left:  320px;
+		min-height: 250px;
+	}
+
+	.footer {
+		margin-left: 25px;
+	}
+	
+	.bord-mid {
+	}
+}

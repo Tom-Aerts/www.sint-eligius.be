@@ -7,11 +7,34 @@
     <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
     <link href="styles/bootstrap.css" rel="stylesheet" />
     <link href="styles/opmaak.css" rel="stylesheet" />
+    <link href="styles/media-queries.css" rel="stylesheet" />
     
     <meta charset="utf-8"> 
 </head>
 
 <body>
+    <div class="navbar navbar-default navbar-fixed-top my-custom-nav"                       role="navigation">
+        <div class="container menu-style">
+            <button type="button" class="btn btn-default navbar-btn"><a         href="#">HOME</a></button>
+            <button type="button" id= nav-btn class="btn btn-default navbar-btn"><a href="#">ALGEMENE INFO</a></button>
+            <button type="button" id="navbar-btn-toggle" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>         
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">ALGEMENE INFO</a></li>
+                    <li><a href="#">KLASSEN</a></li>
+                    <li><a href="#">ACTIVITEITEN</a></li>
+                    <li><a href="#">LEERKRACHTEN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>    
+        </div>
+    </div>
     <div class="container">
         <div class="top">
             <div class="header">
@@ -148,15 +171,21 @@
             </div>
 
             <div class="bord-right col-md-3">
+                <article class="art1">
                 <H2>Onze kerstmarkt</H2>
                 <p>Wat een gezellig einde van onze eerste trimester : een kerstmarkt voor alle leerlingen en hun ouders.
 Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/6098307301814086353">hier</a> de mooie foto's.</p>
+                </article>
 
+                <article class="art2">
                 <H2>Bloggen</H2>
                 <p>We gaan mee met onze tijd. Het 5e leerjaar heeft een blog: <a href="http://eligius5e.blogspot.be/">volg hen hier</a></p>
+                </article>
 
+                <article class="art3">
                 <H2>Sporten in het vijfde leerjaar</H2>
                 <p class='noborder'>Vrijdag 12 december vertrokken we naar de sporthal van Plantijn Moretus voor een zeer leuke sportdag. <a href="index.html">Lees meer...</a></p>
+                </article>
             </div>
             
 
@@ -177,6 +206,14 @@ Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/
                 </div>
             </div>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $('#navbar-btn-toggle').click(function(){
+    if ( $('#nav-btn').css('visibility') == 'hidden' )
+    $('#nav-btn').css('visibility','visible');
+    else
+    $('#nav-btn').css('visibility','hidden');
+});</script>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="scripts/konami.js"></script>
     <script>
