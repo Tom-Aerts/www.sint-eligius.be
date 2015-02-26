@@ -97,3 +97,35 @@
 	.bord-mid {
 	}
 }
+@media only screen and (max-width:1000px) {
+
+	.bord-left {
+		margin-left:  10px;
+	}
+
+	.middle {
+		width:  1160px;
+		margin:  0px auto;
+	}
+
+	.container {
+		padding-left:  0px;
+		padding-right:  0px;
+		margin-left:  0px;
+		margin-right:  0px;
+		width:  1000px;
+	}
+
+	.bord-right {
+		margin-left:  315px;
+	}
+
+	.footer {
+		margin-left:  15px;
+	}
+
+	.slogan {
+		width:  906px;
+	}
+
+}
