@@ -405,6 +405,10 @@ nav > li > a:hover {
     .navbar {
         visibility: visible;
     }
+    
+    .navbar-toggle {
+        display:block;
+    }
 }
 
 
