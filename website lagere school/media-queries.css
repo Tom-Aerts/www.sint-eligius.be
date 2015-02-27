@@ -1,33 +1,7 @@
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:900px) {
 
 	.bord-mid {
-		width:  750px;
-		margin-left:  65px;
-	}
-
-	.bord-right {
-		width:  750px;
-		margin-left:  65px;
-	}
-
-	.footer {
-		width:  600px;
-	}
-
-	.footer-adresgegevens {
-		margin-left:  50px;
-	}
-
-	.footer-contactgegevens {
-		width:  250px;
-		padding-left:  140px;
-	}
-
-	null {
-		padding-left:  0px;
-	}
-
-	.logo-footer {
+		width:  700px;
 	}
 
 }
