@@ -394,6 +394,14 @@ nav > li > a:hover {
     background-color: #3CA473;
 }
 
+.navbar-btn {
+    margin-bottom: 8px;
+}
+
+.navbar-toggle {
+    margin-bottom: 8px;
+}
+
 @media (max-width:1000px) {
     .my-custom-nav .navbar-collapse .navbar-nav > li {
         padding-left:10px!important;
@@ -410,9 +418,37 @@ nav > li > a:hover {
     .navbar-toggle {
         display:block;
     }
+    
+    .navbar-nav > li {
+        width: 500px;
+        height: 40px;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 0px!important;
+    }
+    
+    .navbar-collapse {
+        border: none;
+        box-shadow: none;
+    }
+    
+    .navbar-collapse.in {
+        height: 215px!important;
+    }
+    
 }
 
-
+@media (max-width:550px) {
+    .navbar-nav > li {
+        width: 150px;
+        height: 40px;
+    }
+    
+    .navbar-collapse.in {
+        height: 215px!important;
+    }
+    
 
 
 /*Bottom*/
