@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 p {
     word-wrap: break-word;
+    font-size: 16px;
 }
 
 body {
@@ -190,7 +191,7 @@ article.sticky {
     display: inline-block;
     width: 250px;
     height: auto;
-    min-height: 500px;
+    min-height: 300px;
     height: auto !important;
     /* for IE as it does not support min-height */
     

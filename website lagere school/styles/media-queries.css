@@ -1,92 +1,102 @@
 @media only screen and (max-width:1300px) {
 
 	.bord-mid {
-		width:  600px;
+		width: 600px;
 		margin-left: 5px;
 	}
 	.art1 {
 		padding-right: 20px;
-    width: 180px;
-    border-bottom: none!important;
-    float: left;
-    display: inline-block;
+    	width: 180px;
+    	border-bottom: none!important;
+    	float: left;
+    	display: inline-block;
 	}
 	.art2 {
 		padding-left: 10px;
-    padding-right: 10px;
-    width: 200px;
-    border-bottom: none!important;
-    float: left;
-    display: inline-block;
+    	padding-right: 10px;
+    	width: 200px;
+    	border-bottom: none!important;
+    	float: left;
+    	display: inline-block;
 	}
 	.art3 {
 		padding-left: 10px;
-    width: 180px;
-    border-bottom: none!important;
-    float: left;
-    display: inline-block;
+    	width: 180px;
+    	border-bottom: none!important;
+    	float: left;
+    	display: inline-block;
 	}
 
 	.bord-right {
-		width:  600px;
-		margin-top:  5px;
-		margin-left:  425px;
+		width: 600px;
+		margin-top: 5px;
+		margin-left: 425px;
 	}
 
 	.bord-left {
-		width:  300px;
-		margin-left:  120px;
+		width: 300px;
+		margin-left: 120px;
 		
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	}
-
 	.wifeo_conteneur_menu {
-		width:  250px;
+		width: 250px;
 	}
 
 	.wifeo_pagemenu, .wifeo_rubrique {
-		width:  260px;
+		width: 260px;
 	}
 
 	.wifeo_sousmenu-visible {
-		width:  260px;
+		width: 260px;
 	}
 
 	.wifeo_pagesousmenu {
-		width:  260px;
+		width: 260px;
 	}
 
 	.wifeo_pagemenu:hover, .wifeo_rubrique:hover {
-    background-color: #3CA473;
-    width: 260px;
+    	background-color: #3CA473;
+    	width: 260px;
 	}
 	
 	.footer-contactgegevens {
-		padding-left:  20px;
-		width:  250px;
+		padding-left: 20px;
+		width: 250px;
 	}
 
 	.footer-adresgegevens {
-		padding-left:  20px;
-		width:  250px;
+		padding-left: 20px;
+		width: 250px;
 	}
 
 	.footer {
-		width:  900px;
-		margin-left:  130px;
+		width: 900px;
+		margin-left: 130px;
 	}
 
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 14px;
+	}
 }
+
+
 @media only screen and (max-width:1200px) {
 
 	.bord-left {
-		margin-left:  5px;
+		margin-left: 5px;
 	}
 
 	.bord-right {
-		margin-left:  310px;
+		margin-left: 310px;
 		min-height: 250px;
 	}
 
@@ -94,7 +104,12 @@
 		margin-left: 25px;
 	}
 
+	.bord-mid > article > h1 {
+		font-size: 30px;
+	}
 }
+
+
 @media only screen and (max-width:1000px) {
 
 	.top {
@@ -105,8 +120,8 @@
 	}
 
 	.middle {
-		width:  950px;
-		margin:  0px auto;
+		width: 950px;
+		margin: 0px auto;
 	}
 
 	.bord-right {
@@ -118,12 +133,12 @@
 		width: 850px;
 	}
 	.footer {
-		margin-left:  0px;
+		margin-left: 0px;
 		width: 850px;
 	}
 
 	.slogan {
-		width:  906px;
+		width: 906px;
 		margin-left: -30px;
 	}
 	
@@ -142,11 +157,11 @@
 	}
 	
 	.my-custom-nav .navbar-collapse .navbar-nav > li {
-        padding-left:10px!important;
+        padding-left: 10px!important;
     }
 
     .my-custom-nav .user-dropdown > .dropdown-menu > li {
-        padding-left:5px!important;
+        padding-left: 5px!important;
     }
         
     .navbar {
@@ -154,7 +169,7 @@
     }
     
     .navbar-toggle {
-        display:block;
+        display: block;
     }
     
     .navbar-nav > li {
@@ -186,15 +201,15 @@
     }
     
     .SubArt1 {
-    width: 270px;
+    	width: 270px;
     }
 
     .SubArt2 {
-    width: 270px;
+    	width: 270px;
     }
 
     .SubArt3 {
-    width: 270px;
+    	width: 270px;
     }
 	
 	.bord-right {
@@ -219,31 +234,30 @@
 	.slogan > h3 {
 		font-size: 18pt;
 	}
-	
 }
+
 
 @media only screen and (max-width:950px) {
 
 	.bord-mid {
-		width:  750px;
-		margin-left:  65px;
+		width: 750px;
+		margin-left: 65px;
 	}
 
 	.bord-right {
-		width:  750px;
-		margin-left:  65px;
+		width: 750px;
+		margin-left: 65px;
 	}
 
 	.footer {
-		width:  750px;
+		width: 750px;
 		margin-left: 65px;
 	}
 
 	.footer-adresgegevens{
-		margin-left:  130px;
+		margin-left: 130px;
 		width: 250px;
 		padding-left: 0px;
-	
 	}
 
 	.footer-contactgegevens {
@@ -261,15 +275,15 @@
 	}
 	
 	.SubArt1 {
-    width: 235px;
+    	width: 235px;
     }
 
     .SubArt2 {
-    width: 235px;
+    	width: 235px;
     }
 
     .SubArt3 {
-    width: 235px;
+    	width: 235px;
     }
 
 	.art1 {
@@ -316,15 +330,15 @@
 	}
 	
 	.SubArt1 {
-    width: 220px;
+    	width: 220px;
     }
 
     .SubArt2 {
-    width: 220px;
+    	width: 220px;
     }
 
     .SubArt3 {
-    width: 220px;
+    	width: 220px;
     }
 
 	.art1 {
@@ -345,5 +359,4 @@
 	.slogan > h3 {
 		font-size: 14pt;
 	}
-
 }
