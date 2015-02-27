@@ -402,42 +402,6 @@ nav > li > a:hover {
     margin-bottom: 8px;
 }
 
-@media (max-width:1000px) {
-    .my-custom-nav .navbar-collapse .navbar-nav > li {
-        padding-left:10px!important;
-    }
-
-    .my-custom-nav .user-dropdown > .dropdown-menu > li {
-        padding-left:5px!important;
-    }
-        
-    .navbar {
-        visibility: visible;
-    }
-    
-    .navbar-toggle {
-        display:block;
-    }
-    
-    .navbar-nav > li {
-        width: 500px;
-        height: 40px;
-    }
-    
-    .navbar-nav > li > a {
-        padding-left: 0px!important;
-    }
-    
-    .navbar-collapse {
-        border: none;
-        box-shadow: none;
-    }
-    
-    .navbar-collapse.in {
-        height: 215px!important;
-    }
-    
-}
 
 @media (max-width:550px) {
     .navbar-nav > li {
