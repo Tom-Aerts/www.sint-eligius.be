@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 p {
     word-wrap: break-word;
-    font-size: 16px;
 }
 
 body {
@@ -191,7 +190,7 @@ article.sticky {
     display: inline-block;
     width: 250px;
     height: auto;
-    min-height: 300px;
+    min-height: 500px;
     height: auto !important;
     /* for IE as it does not support min-height */
     
@@ -395,25 +394,34 @@ nav > li > a:hover {
     background-color: #3CA473;
 }
 
-.navbar-btn {
-    margin-bottom: 8px;
-}
-
-.navbar-toggle {
-    margin-bottom: 8px;
-}
-
-
-@media (max-width:550px) {
-    .navbar-nav > li {
-        width: 150px;
-        height: 40px;
+@media (max-width:1000px) {
+    .my-custom-nav .navbar-collapse .navbar-nav > li {
+        padding-left:10px!important;
     }
+
+    .my-custom-nav .user-dropdown > .dropdown-menu > li {
+        padding-left:5px!important;
+    }
+<<<<<<< HEAD
     
     .navbar-collapse.in {
         height: 215px!important;
     }   
 }
+=======
+        
+    .navbar {
+        visibility: visible;
+    }
+    
+    .navbar-toggle {
+        display:block;
+    }
+}
+
+
+
+>>>>>>> origin/master
 
 /*Bottom*/
 .footer {
