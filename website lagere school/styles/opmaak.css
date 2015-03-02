@@ -125,6 +125,7 @@ article.sticky {
 }
 
 .bord-mid {
+    position: static;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;

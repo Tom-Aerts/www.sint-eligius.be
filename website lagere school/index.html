@@ -10,7 +10,7 @@
     <link href="styles/media-queries.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
     
     <meta charset="utf-8"> 
@@ -61,6 +61,7 @@
         </div>
         <div class="middle">
             <!-- begin normaal menu -->
+        <div class="volger">
             <div class="bord-left col-md-3">
                 <form class="navbar-form" role="search">
                     <div class="input-group">
@@ -150,6 +151,7 @@
                     </div>
                 </nav>
             </div>
+        </div>
             <!-- einde normaal menu -->
             
             <div class="bord-mid col-md-6">
@@ -230,5 +232,38 @@ Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/
     else
     $('#nav-btn1').css('visibility','hidden');
     });</script>
+
+    <script type="text/javascript">
+$(function() {
+    // Set this variable with the desired height
+    var offsetPixels = 188; 
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > offsetPixels) {
+            $( ".volger" ).css({
+                "position": "fixed",
+                "top": "0px"
+            });
+        } else {
+            $( ".volger" ).css({
+                "position": "relative",
+                "top": "0"
+            });
+        }
+    });
+});
+
+$(document).scroll(function(){
+    if($(this).scrollTop() >= 188)
+    {   
+        $('.col-md-6').css({"margin-left":"255px"});
+    }
+    else
+    {
+        $('.col-md-6').css({"margin-left":"5px"});
+    }
+});
+</script>
+
 </body>
 </html>
