@@ -10,7 +10,6 @@
     <link href="styles/media-queries.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
     
     <meta charset="utf-8"> 
@@ -18,10 +17,10 @@
 
 <body>
     <!-- GSM menu -->
-    <div class="navbar navbar-default navbar-fixed-top my-custom-nav"                       role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top my-custom-nav" role="navigation">
         <div class="menu-style">
-            <a href="#"><button type="button" class="btn btn-default navbar-btn">HOME</button></a>
-            <a href="index.html"><button type="button" id="nav-btn1" class="btn btn-default navbar-btn">ALG. INFO</button></a>
+            <a href="#"><button type="button" class="btn btn-default navbar-btn mobi-btn1">HOME</button></a>
+            <a href="index.html"><button type="button" id="nav-btn1" class="btn btn-default navbar-btn mobi-btn1">ALG. INFO</button></a>
             <button type="button" id="navbar-btn-toggle1" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -30,11 +29,11 @@
 
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"><button type="button" class="btn btn-default navbar-btn">ALGEMENE INFO</button></a></li>
-                    <li><a href="index.html"><button type="button" class="btn btn-default navbar-btn">KLASSEN</button></a></li>
-                    <li><a href="#"><button type="button" class="btn btn-default navbar-btn">ACTIVITEITEN</button></a></li>
-                    <li><a href="Leerkrachten.html"><button type="button" class="btn btn-default navbar-btn">LEERKRACHTEN</button></a></li>
-                    <li><a href="#">q<button type="button" class="btn btn-default navbar-btn">CONTACT</button></a></li>
+                    <li><a href="#"><button type="button" class="btn btn-default navbar-btn mobi-btn">ALGEMENE INFO</button></a></li>
+                    <li><a href="index.html"><button type="button" class="btn btn-default navbar-btn mobi-btn">KLASSEN</button></a></li>
+                    <li><a href="#"><button type="button" class="btn btn-default navbar-btn mobi-btn">ACTIVITEITEN</button></a></li>
+                    <li><a href="Leerkrachten.html"><button type="button" class="btn btn-default navbar-btn mobi-btn">LEERKRACHTEN</button></a></li>
+                    <li><a href="#"><button type="button" class="btn btn-default navbar-btn mobi-btn">CONTACT</button></a></li>
                 </ul>
             </div>    
         </div>
@@ -215,55 +214,55 @@ Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/
                 </div>
             </div>
     </div>
-        <script type=text/javascript src="scripts/jquery-1.11.2.min.js"></script>
+    
+    <script type=text/javascript src="scripts/jquery-1.11.2.min.js"></script>
     <script type=text/javascript src="scripts/bootstrap.js"></script>
     <script src="scripts/konami.js"></script>
     <script>
-    $(".wifeo_rubrique").on("click", function() {
-        $(".wifeo_sousmenu").removeClass("wifeo_sousmenu-visible");
-        $(this).find(".wifeo_sousmenu").addClass("wifeo_sousmenu-visible");
-    });
-    $(window).konami();
+        $(".wifeo_rubrique").on("click", function() {
+            $(".wifeo_sousmenu").removeClass("wifeo_sousmenu-visible");
+            $(this).find(".wifeo_sousmenu").addClass("wifeo_sousmenu-visible");
+        });
+        $(window).konami();
     </script>
     <script>
-    $('#navbar-btn-toggle1').click(function(){
-    if ( $('#nav-btn1').css('visibility') == 'hidden' )
-    $('#nav-btn1').css('visibility','visible');
-    else
-    $('#nav-btn1').css('visibility','hidden');
-    });</script>
-
+        $('#navbar-btn-toggle1').click(function(){
+            if ( $('#nav-btn1').css('visibility') == 'hidden' )
+            $('#nav-btn1').css('visibility','visible');
+            else
+            $('#nav-btn1').css('visibility','hidden');
+        });
+    </script>
     <script type="text/javascript">
-$(function() {
-    // Set this variable with the desired height
-    var offsetPixels = 188; 
+        $(function() {
+            // Set this variable with the desired height
+            var offsetPixels = 188; 
 
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > offsetPixels) {
-            $( ".volger" ).css({
-                "position": "fixed",
-                "top": "0px"
+            $(window).scroll(function() {
+            if ($(window).scrollTop() > offsetPixels) {
+                $( ".volger" ).css({
+                    "position": "fixed",
+                    "top": "0px"
+                });
+            } else {
+                $( ".volger" ).css({
+                    "position": "relative",
+                    "top": "0"
+                });
+            }
             });
-        } else {
-            $( ".volger" ).css({
-                "position": "relative",
-                "top": "0"
-            });
-        }
-    });
-});
+        });
 
-$(document).scroll(function(){
-    if($(this).scrollTop() >= 188)
-    {   
-        $('.col-md-6').css({"margin-left":"255px"});
-    }
-    else
-    {
-        $('.col-md-6').css({"margin-left":"5px"});
-    }
-});
-</script>
+        $(document).scroll(function(){
+            if($(this).scrollTop() >= 188) {   
+                $('.col-md-6').css({"margin-left":"255px"});
+            }
+            else
+            {
+                $('.col-md-6').css({"margin-left":"5px"});
+            }
+        });
+    </script>
 
 </body>
 </html>
