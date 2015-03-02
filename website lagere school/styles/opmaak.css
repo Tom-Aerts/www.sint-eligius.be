@@ -402,13 +402,10 @@ nav > li > a:hover {
     .my-custom-nav .user-dropdown > .dropdown-menu > li {
         padding-left:5px!important;
     }
-<<<<<<< HEAD
     
     .navbar-collapse.in {
         height: 215px!important;
     }   
-}
-=======
         
     .navbar {
         visibility: visible;
@@ -418,10 +415,6 @@ nav > li > a:hover {
         display:block;
     }
 }
-
-
-
->>>>>>> origin/master
 
 /*Bottom*/
 .footer {
