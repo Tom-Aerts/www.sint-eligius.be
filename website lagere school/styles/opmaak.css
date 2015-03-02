@@ -412,9 +412,8 @@ nav > li > a:hover {
     
     .navbar-collapse.in {
         height: 215px!important;
-    }
-    
-
+    }   
+}
 
 /*Bottom*/
 .footer {
@@ -439,7 +438,7 @@ nav > li > a:hover {
 .footer-adresgegevens {
     width: 400px;
     margin-left: 100px;
-    height: 100px;
+    height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
@@ -448,7 +447,7 @@ nav > li > a:hover {
 
 .footer-contactgegevens {
     width: 400px;
-    height: 100px;
+    height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
