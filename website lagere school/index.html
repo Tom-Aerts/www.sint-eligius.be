@@ -244,23 +244,16 @@ Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/
                     "position": "fixed",
                     "top": "0px"
                 });
+                // if else toestanden
+                $('.bord-mid').css({"margin-left":"255px"});
             } else {
                 $( ".volger" ).css({
                     "position": "relative",
                     "top": "0"
                 });
+                $('.bord-mid').css({"margin-left":"5px"});
             }
             });
-        });
-
-        $(document).scroll(function(){
-            if($(this).scrollTop() >= 188) {   
-                $('.col-md-6').css({"margin-left":"255px"});
-            }
-            else
-            {
-                $('.col-md-6').css({"margin-left":"5px"});
-            }
         });
     </script>
 
