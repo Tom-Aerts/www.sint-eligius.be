@@ -244,14 +244,33 @@ Bekijk <a href="https://plus.google.com/u/0/photos/112777351942562807492/albums/
                     "position": "fixed",
                     "top": "0px"
                 });
-                // if else toestanden
-                $('.bord-mid').css({"margin-left":"255px"});
+                if (window.matchMedia("(min-width: 1300px)").matches) {
+                    $('.bord-mid').css({"margin-left":"255px"});
+                }
+                else if (window.matchMedia("(min-width: 1200px)").matches) {
+                    $('.bord-mid').css({"margin-left":"425px"});
+                }
+                else if (window.matchMedia("(min-width: 1000px)").matches) {
+                    $('.bord-mid').css({"margin-left":"310px"});
+                }
+                else if (window.matchMedia("(min-width: 950px)").matches) {
+                    $('.bord-mid').css({"margin-left":"0px"});
+                }
+                else if (window.matchMedia("(min-width: 900px)").matches) {
+                    $('.bord-mid').css({"margin-left":"65px"});
+                }
+                else if (window.matchMedia("(min-width: 0px)").matches) {
+                    $('.bord-mid').css({"margin-left":"65px"});
+                }
             } else {
-                $( ".volger" ).css({
-                    "position": "relative",
-                    "top": "0"
-                });
-                $('.bord-mid').css({"margin-left":"5px"});
+                if (window.matchMedia("(min-width: 1000px)").matches) {
+                    $( ".volger" ).css({
+                        "position": "relative",
+                        "top": "0"
+                    });
+                    $('.bord-mid').css({"margin-left":"5px"});
+                }
+                
             }
             });
         });
