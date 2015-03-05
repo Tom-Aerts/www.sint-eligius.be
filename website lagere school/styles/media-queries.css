@@ -459,19 +459,19 @@
 		}
 		/* moet nog aangepast worden */
 		.footer-adresgegevens{
-			margin-left:  60px;
-			width: 120px;
+			margin-left:  56px;
+			width: 135px;
 			padding-left: 0px;
-			font-size: 2pt; /* doet niets? */
-		}
-		.footer-adresgegevens > p {
-			font-size: 12pt;
 		}
 		.footer-contactgegevens {
-			width:  120px;
+			width:  135px;
 			padding-left:  0px;
 			margin-left: 0px;
 			font-size: pt;
+			overflow: hidden
+		}
+		.size {
+			font-size: 10pt;
 		}
 		
 }
