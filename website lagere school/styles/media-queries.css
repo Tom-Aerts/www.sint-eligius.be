@@ -426,21 +426,33 @@
 			width: 300px
 		}
 		.menu-style > a > button {
-			width: 43%
+			width: 39%
 		}
 		.menu-style > a > .home {
 			width: 30%;
 		}
 		.mobi-btn1{
 			height: 60px;
-			font-size: 20pt;
+			font-size: 18pt;
 		}
 		.mobi-btn {
-			font-size: 20px;
+			font-size: 18px;
 		}
 		.middle {
 			width: 360px;
 		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 70px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 30px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
 		.footer {
 			width:  360px;
 			margin-left: 0px;
