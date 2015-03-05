@@ -242,6 +242,17 @@
 		font-size: 28pt;
 	}
 	
+	h1 {
+		font-size: 36pt;
+	}
+	
+	h2 {
+		font-size: 30pt;
+	}
+	
+	h3 {
+		font-size: 20pt;
+	
 }
 
 @media (max-width:550px) {
