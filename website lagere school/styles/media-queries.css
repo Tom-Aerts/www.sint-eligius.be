@@ -144,10 +144,6 @@
 		height: 30px;
 	}
 	
-	.slogan > h3 {
-		font-size: 18pt;
-	}
-	
 	.my-custom-nav .navbar-collapse .navbar-nav > li {
         padding-left:10px!important;
     }
@@ -227,97 +223,35 @@
 	}
 	
 	.menu-style > a > button {
-		width: 40%;
+		width: 35%;
 	}
 	
 	.menu-style > a > button {
 		margin-left: 10px;
 	}
-}
-
-@media only screen and (max-width:950px) {
-
-	.bord-mid {
-		width:  750px;
-		margin-left:  65px;
-	}
-
-	.bord-right {
-		width:  750px;
-		margin-left:  65px;
-	}
-
-	.footer {
-		width:  750px;
-		margin-left: 65px;
-	}
-
-	.footer-adresgegevens{
-		margin-left:  130px;
-		width: 250px;
-		padding-left: 0px;
 	
-	}
-
-	.footer-contactgegevens {
-		width:  250px;
-		padding-left:  0px;
-		margin-left: 0px;
-	}
-	
-	.header {
-		margin-left: 180px;
-	}
-	
-	.slogan {
-		margin-left: -20px;
-	}
-	
-	.slogan > h3 {
-		font-size: 17pt;
-	}
-	
-}
-
-@media only screen and (max-width:900px) {
-
-	.bord-mid {
-		width:  700px;
-	}
-	
-	.bord-right {
-		width: 700px;
-	}
-	
-	.slogan {
-		margin-left: -40px;
-	}
-	
-	.header {
-		margin-left: 150px;
-	}
-	
-	.footer {
-		width: 700px;
-	}
-	
-	.slogan > h3 {
+	p, a {
 		font-size: 16pt;
 	}
 	
-	.menu-style > a > button {
-		width: 33%
+	.slogan > h3 {
+		font-size: 22pt;
 	}
+	
+	.title > a > h1 {
+		font-size: 28pt;
+	}
+	
 }
 
 @media (max-width:550px) {
     .navbar-nav > li {
-    	width: 100%;
+        width: 100%;
         height: 37px;
     }
         
     .navbar-collapse.in {
         height: 215px!important;
     }
-	
+    
 }
