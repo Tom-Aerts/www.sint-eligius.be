@@ -95,11 +95,31 @@
 	.footer {
 		margin-left: 5px;
 	}
+	
 
 }
 
 @media only screen and (max-width:1000px) {
+	.SubArt1 {
+			width: 810px;
+		}
 
+		.SubArt2 {
+			width: 810px;
+		}
+
+		.SubArt3 {
+			width: 810px;
+		}
+		.art1 {
+			width: 810px;
+		}
+		.art2 {
+			width: 810px
+		}
+		.art3 {
+			width: 810px
+		}
 	.top {
 		margin-top: 110px;
 	}
@@ -282,7 +302,26 @@
 }
 
 	@media only screen and (max-width:950px) {
+	.SubArt1 {
+			width: 710px;
+		}
 
+		.SubArt2 {
+			width: 710px;
+		}
+
+		.SubArt3 {
+			width: 710px;
+		}
+		.art1 {
+			width: 710px;
+		}
+		.art2 {
+			width: 710px
+		}
+		.art3 {
+			width: 710px
+		}	
 	.bord-mid {
 		width:  750px;
 		margin-left:  65px;
@@ -325,7 +364,26 @@
 }
 
 @media only screen and (max-width:900px) {
+	.SubArt1 {
+			width: 660px;
+		}
 
+		.SubArt2 {
+			width: 660px;
+		}
+
+		.SubArt3 {
+			width: 660px;
+		}
+		.art1 {
+			width: 660px;
+		}
+		.art2 {
+			width: 660px
+		}
+		.art3 {
+			width: 660px
+		}
 	.bord-mid {
 		width:  700px;
 	}
