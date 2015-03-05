@@ -197,6 +197,8 @@
 		background-color: transparent;
 		color: #fff;
 		text-align: left;
+		height: 50px;
+		display: block
 	}
 	
 	.mobi-btn:hover {
@@ -213,6 +215,7 @@
 		background-color: transparent;
 		color: #fff;
 		text-align: left;
+		
 	}
 	
 	.mobi-btn1:hover {
@@ -367,22 +370,79 @@
 			height: 500px;
 			display: block;
 		}
-		/* moet nog aangepast worden */
+		.header {
+			margin-left: 0px;
+			width: 341px;
+		}
+		.querry {
+			width: 60px
+		}
+		.logo-rightheader {
+			padding-right: 3px;
+		}
+		.slogan {
+			width: 341px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 341px;
+		}
+		h1 {
+			font-size: 28pt
+		}
+		.SubArt1 {
+			width: 300px;
+		}
+
+		.SubArt2 {
+			width: 300px;
+		}
+
+		.SubArt3 {
+			width: 300px;
+		}
+		.art1 {
+			width: 300px;
+		}
+		.art2 {
+			width: 300px
+		}
+		.art3 {
+			width: 300px
+		}
+		.menu-style > a > button {
+			width: 43%
+		}
+		.menu-style > a > .home {
+			width: 30%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 20pt;
+		}
 		.footer {
-		width:  750px;
-		margin-left: 65px;
-	}
-
-	.footer-adresgegevens{
-		margin-left:  130px;
-		width: 250px;
-		padding-left: 0px;
-	
-	}
-
-	.footer-contactgegevens {
-		width:  250px;
-		padding-left:  0px;
-		margin-left: 0px;
-	}
+			width:  341px;
+			margin-left: 0px;
+		}
+		/* moet nog aangepast worden */
+		.footer-adresgegevens{
+			margin-left:  60px;
+			width: 120px;
+			padding-left: 0px;
+			font-size: 2pt; /* doet niets? */
+		}
+		.footer-adresgegevens > p {
+			font-size: 12pt;
+		}
+		.footer-contactgegevens {
+			width:  120px;
+			padding-left:  0px;
+			margin-left: 0px;
+			font-size: pt;
+		}
+		
 }
