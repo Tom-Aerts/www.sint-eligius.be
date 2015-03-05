@@ -76,7 +76,7 @@
 
 	.footer {
 		width:  900px;
-		margin-left:  130px;
+		margin-left:  120px;
         float: 
 	}
 
@@ -93,7 +93,7 @@
 	}
 
 	.footer {
-		margin-left: 25px;
+		margin-left: 5px;
 	}
 
 }
@@ -258,19 +258,21 @@
 	}
 	/* nog aan te passen */
 	.footer {
-		width:  750px;
-		margin-left: 65px;
+		width:  850px;
+		margin-left: 0px;
 	}
-
+	.size {
+		font-size: 12pt
+	}
 	.footer-adresgegevens{
 		margin-left:  130px;
-		width: 250px;
+		width: 260px;
 		padding-left: 0px;
 	
 	}
 
 	.footer-contactgegevens {
-		width:  250px;
+		width:  260px;
 		padding-left:  0px;
 		margin-left: 0px;
 	}
