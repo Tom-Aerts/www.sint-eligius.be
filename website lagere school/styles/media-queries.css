@@ -274,6 +274,9 @@
 		padding-left:  0px;
 		margin-left: 0px;
 	}
+	.middle {
+			width: 1000px;
+		}
 }
 
 	@media only screen and (max-width:950px) {
@@ -313,6 +316,9 @@
 	.slogan {
 		margin-left: -20px;
 	}
+		.middle {
+			width: 950px;
+		}
 	
 }
 
@@ -341,6 +347,9 @@
 	.menu-style > a > button {
 		width: 33%
 	}
+	.middle {
+			width: 900px;
+		}
 }
 	
 @media (max-width:550px) {
@@ -362,17 +371,19 @@
 		}
 		.bord-mid {
 			margin-left: 0px;
-			width: 341px;
+			width: 360px;
+			margin-right: 0px;
 		}
 		.bord-right {
 			margin-left: 0px;
-			width: 341px;
+			width: 360px;
 			height: 500px;
 			display: block;
+			margin-right: 0px;
 		}
 		.header {
 			margin-left: 0px;
-			width: 341px;
+			width: 360px;
 		}
 		.querry {
 			width: 60px
@@ -381,7 +392,7 @@
 			padding-right: 3px;
 		}
 		.slogan {
-			width: 341px;
+			width: 360px;
 			margin-left: 0px;
 		}
 		.slogan > h3 {
@@ -389,7 +400,7 @@
 	}
 		.top {
 			margin-left: 0px;
-			width: 341px;
+			width: 360px;
 		}
 		h1 {
 			font-size: 28pt
@@ -424,8 +435,11 @@
 			height: 60px;
 			font-size: 20pt;
 		}
+		.middle {
+			width: 360px;
+		}
 		.footer {
-			width:  341px;
+			width:  360px;
 			margin-left: 0px;
 		}
 		/* moet nog aangepast worden */
