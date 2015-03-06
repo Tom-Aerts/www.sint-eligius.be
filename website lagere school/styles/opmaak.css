@@ -443,7 +443,7 @@ nav > li > a:hover {
 
 /*het prikbord zelf*/
 #prikbord {
-    height:500px;
+    height:520px;
     width: 1130px;
     background-image: url(../images/kurk.jpg);
     border: 8px solid;
@@ -454,7 +454,7 @@ nav > li > a:hover {
 
 /*alle vakjes met de foto en korte informatie*/
 .profiel {
-    height: 220px;
+    height: 230px;
     width: 400px;
     display: inline-block;
     background-color: wheat;
