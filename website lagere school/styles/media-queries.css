@@ -510,24 +510,24 @@
 			font-size: 28pt
 		}
 		.SubArt1 {
-			width: 300px;
+			width: 320px;
 		}
 
 		.SubArt2 {
-			width: 300px;
+			width: 320px;
 		}
 
 		.SubArt3 {
-			width: 300px;
+			width: 320px;
 		}
 		.art1 {
-			width: 300px;
+			width: 320px;
 		}
 		.art2 {
-			width: 300px
+			width: 320px
 		}
 		.art3 {
-			width: 300px
+			width: 320px
 		}
 		.menu-style > a > button {
 			width: 39%
@@ -557,11 +557,6 @@
             margin-left: 10px!important;
             background-color: #fff!important;
         }
-		.footer {
-			width:  360px;
-			margin-left: 0px;
-		}
-		/* moet nog aangepast worden */
 		.footer-adresgegevens{
 			margin-left:  56px;
 			width: 135px;
@@ -571,11 +566,317 @@
 			width:  135px;
 			padding-left:  0px;
 			margin-left: 0px;
-			font-size: pt;
 			overflow: hidden
 		}
 		.size {
 			font-size: 10pt;
 		}
+		.footer {
+			width:  360px;
+			margin-left: 0px;
+		}
 		
+		/* moet nog aangepast worden */
+		
+		
+}
+@media only screen and (max-width:355px) {
+	.bord-mid {
+			width: 355px;
+		}
+		.bord-right {
+			width: 355px;
+		}
+		.querry {
+			width: 55px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 355px;
+		}
+		.slogan {
+			width: 355px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 355px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 315px;
+		}
+
+		.SubArt2 {
+			width: 315px;
+		}
+
+		.SubArt3 {
+			width: 315px;
+		}
+		.art1 {
+			width: 315px;
+		}
+		.art2 {
+			width: 315px
+		}
+		.art3 {
+			width: 315px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 355px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 0px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  355px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
+}
+@media only screen and (max-width:327px) {
+	.bord-mid {
+			width: 327px;
+		}
+		.bord-right {
+			width: 327px;
+		}
+		.querry {
+			width: 55px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 327px;
+		}
+		.slogan {
+			width: 327px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 327px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 285px;
+		}
+
+		.SubArt2 {
+			width: 285px;
+		}
+
+		.SubArt3 {
+			width: 285px;
+		}
+		.art1 {
+			width: 285px;
+		}
+		.art2 {
+			width: 285px
+		}
+		.art3 {
+			width: 285px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 327px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 20px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  327px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
+}
+@media only screen and (max-width:320px) {
+	.bord-mid {
+			width: 320px;
+		}
+		.bord-right {
+			width: 320px;
+		}
+		.querry {
+			width: 50px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 320px;
+		}
+		.slogan {
+			width: 320px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 320px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 280px;
+		}
+
+		.SubArt2 {
+			width: 280px;
+		}
+
+		.SubArt3 {
+			width: 280px;
+		}
+		.art1 {
+			width: 280px;
+		}
+		.art2 {
+			width: 280px
+		}
+		.art3 {
+			width: 280px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 320px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 20px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  320px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
 }
