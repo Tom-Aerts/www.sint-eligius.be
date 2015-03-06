@@ -78,32 +78,15 @@
 		width:  900px;
 		margin-left:  120px;
 	}
-	
-}
-@media only screen and (max-width:1200px) {
-
-	.bord-left {
-		margin-left:  5px;
-	}
-
-	.bord-right {
-		margin-left:  310px;
-		min-height: 250px;
-	}
-
-	.footer {
-		margin-left: 5px;
-	}
-	
-	.button {
-		margin-left: 10px;
-	}
-	
-	
 	/*Mediaqueries Leerkrachten.html*/
 	
+	#footerprikbord{
+		width:  900px;
+		margin-left:  120px;
+	}
 	#prikbord {
 		width: 870px;
+		margin-left: 120px
 	}
 	
 	.profiel {
@@ -138,6 +121,70 @@
 	#footerprikbord {
 		width: 855px;
 	}
+	
+}
+@media only screen and (max-width:1200px) {
+
+	.bord-left {
+		margin-left:  5px;
+	}
+
+	.bord-right {
+		margin-left:  310px;
+		min-height: 250px;
+	}
+
+	.footer {
+		margin-left: 5px;
+	}
+	
+	.button {
+		margin-left: 10px;
+	}
+	/*Mediaqueries Leerkrachten.html*/
+	
+	#footerprikbord{
+		width:  800px!important;
+		margin-left:  120px;
+	}
+	#prikbord {
+		width: 800px;
+		margin-left: 120px
+	}
+	
+	.profiel {
+		width: 320px;
+		margin-left: 75px;
+	}
+	
+	#pro-rij2 {
+		margin-left: 50px;
+	}
+	
+	.foto {
+		margin-left: -10px;
+	}
+	
+	.teksttwee {
+		margin-left: 130px;
+	}
+	
+	#links {
+		margin-left: 5px;
+	}
+	
+	span.text-content {
+		width: 320px;
+	}
+	
+	#rechts {
+		margin-left: 785px;
+	}
+	
+	#footerprikbord {
+		width: 855px;
+	}
+	
 	
 }
 
@@ -342,7 +389,49 @@
 			width: 1000px;
 		}
 	
+	/*Mediaqueries Leerkrachten.html*/
 	
+	#footerprikbord{
+		width:  900px;
+		margin-left:  120px;
+	}
+	#prikbord {
+		width: 1000px;
+		margin-left: 0px
+	}
+	
+	.profiel {
+		width: 320px;
+		margin-left: 75px;
+	}
+	
+	#pro-rij2 {
+		margin-left: 50px;
+	}
+	
+	.foto {
+		margin-left: -10px;
+	}
+	
+	.teksttwee {
+		margin-left: 130px;
+	}
+	
+	#links {
+		margin-left: 5px;
+	}
+	
+	span.text-content {
+		width: 320px;
+	}
+	
+	#rechts {
+		margin-left: 785px;
+	}
+	
+	#footerprikbord {
+		width: 855px;
+	}
 }
 
 	@media only screen and (max-width:950px) {
