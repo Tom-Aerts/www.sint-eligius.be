@@ -122,6 +122,10 @@
 		width: 855px;
 	}
 	
+	.button {
+		margin-left: 120px;
+	}
+	
 }
 @media only screen and (max-width:1200px) {
 
@@ -138,52 +142,6 @@
 		margin-left: 5px;
 	}
 	
-	.button {
-		margin-left: 10px;
-	}
-	/*Mediaqueries Leerkrachten.html*/
-	
-	#footerprikbord{
-		width:  800px!important;
-		margin-left:  120px;
-	}
-	#prikbord {
-		width: 800px;
-		margin-left: 120px
-	}
-	
-	.profiel {
-		width: 320px;
-		margin-left: 75px;
-	}
-	
-	#pro-rij2 {
-		margin-left: 50px;
-	}
-	
-	.foto {
-		margin-left: -10px;
-	}
-	
-	.teksttwee {
-		margin-left: 130px;
-	}
-	
-	#links {
-		margin-left: 5px;
-	}
-	
-	span.text-content {
-		width: 320px;
-	}
-	
-	#rechts {
-		margin-left: 785px;
-	}
-	
-	#footerprikbord {
-		width: 855px;
-	}
 	
 	
 }
@@ -392,50 +350,58 @@
 	/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
-		width:  900px;
+		width:  800px!important;
 		margin-left:  120px;
 	}
 	#prikbord {
-		width: 1000px;
-		margin-left: 0px
+		width: 800px;
+		height: 1000px;
+		margin-left: 120px
 	}
 	
 	.profiel {
-		width: 320px;
+		width: 600px;
 		margin-left: 75px;
 	}
 	
 	#pro-rij2 {
-		margin-left: 50px;
+		margin-left: 75px;
 	}
 	
 	.foto {
-		margin-left: -10px;
+		margin-left: 25px;
 	}
 	
 	.teksttwee {
-		margin-left: 130px;
+		margin-left: 170px;
 	}
 	
 	#links {
+		margin-top: 100px;
 		margin-left: 5px;
 	}
 	
 	span.text-content {
-		width: 320px;
+		width: 600px;
 	}
 	
 	#rechts {
-		margin-left: 785px;
+		margin-top: -150px;
+		margin-left: 700px;
 	}
 	
 	#footerprikbord {
 		width: 855px;
 	}
+	
+	.button {
+		margin-left: 120px;
+	}
+	
 }
 
 	@media only screen and (max-width:950px) {
-	.SubArt1 {
+		.SubArt1 {
 			width: 710px;
 		}
 
@@ -455,46 +421,48 @@
 		.art3 {
 			width: 710px
 		}	
-	.bord-mid {
-		width:  750px;
-		margin-left:  65px;
-	}
+		.bord-mid {
+			width:  750px;
+			margin-left:  65px;
+		}
 
-	.bord-right {
-		width:  750px;
-		margin-left:  65px;
-	}
+		.bord-right {
+			width:  750px;
+			margin-left:  65px;
+		}
 
-	.footer {
-		width:  750px;
-		margin-left: 65px;
-	}
+		.footer {
+			width:  750px;
+			margin-left: 65px;
+		}
 
-	.footer-adresgegevens{
-		margin-left:  130px;
-		width: 250px;
-		padding-left: 0px;
+		.footer-adresgegevens{
+			margin-left:  130px;
+			width: 250px;
+			padding-left: 0px;
 	
-	}
+		}
 
-	.footer-contactgegevens {
-		width:  250px;
-		padding-left:  0px;
-		margin-left: 0px;
-	}
+		.footer-contactgegevens {
+			width:  250px;
+			padding-left:  0px;
+			margin-left: 0px;
+		}
 	
-	.header {
-		margin-left: 180px;
-	}
+		.header {
+			margin-left: 180px;
+		}
 	
-	.slogan {
-		margin-left: -20px;
-	}
+		.slogan {
+			margin-left: -20px;
+		}
+	
 		.middle {
 			width: 950px;
 		}
+		
 	
-}
+	}
 
 @media only screen and (max-width:900px) {
 	.SubArt1 {
