@@ -84,9 +84,10 @@
 		width:  900px;
 		margin-left:  120px;
 	}
+	
 	#prikbord {
 		width: 870px;
-		margin-left: 120px
+		margin-left: 120px;
 	}
 	
 	.profiel {
@@ -395,8 +396,16 @@
 		width: 855px;
 	}
 	
+	#prikbord {
+		margin-left: 0px;
+	}
+	
 	.button {
-		margin-left: 120px;
+		margin-left: 0px;
+	}
+	
+	.home-lkr {
+		visibility: hidden;
 	}
 	
 }
@@ -461,7 +470,6 @@
 		.middle {
 			width: 950px;
 		}
-		
 	
 	}
 
@@ -512,6 +520,8 @@
 	.middle {
 			width: 900px;
 		}
+	
+	
 }
 	
 @media (max-width:550px) {
