@@ -303,7 +303,7 @@
 	}
 	
 	p, a {
-		font-size: 16pt;
+		font-size: 12pt;
 	}
 	
 	.slogan > h3 {
@@ -353,12 +353,13 @@
 	
 	#footerprikbord{
 		width:  800px!important;
-		margin-left:  120px;
+		margin-left: 0px;
 	}
+	
 	#prikbord {
 		width: 800px;
 		height: 1000px;
-		margin-left: 120px
+		margin-left: 0px
 	}
 	
 	.profiel {
@@ -390,14 +391,6 @@
 	#rechts {
 		margin-top: -150px;
 		margin-left: 700px;
-	}
-	
-	#footerprikbord {
-		width: 855px;
-	}
-	
-	#prikbord {
-		margin-left: 0px;
 	}
 	
 	.button {
