@@ -352,23 +352,23 @@
 	/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
-		width:  800px!important;
+		width:  900px!important;
 		margin-left: 0px;
 	}
 	
 	#prikbord {
-		width: 800px;
+		width: 900px;
 		height: 1000px;
 		margin-left: 0px
 	}
 	
 	.profiel {
-		width: 600px;
-		margin-left: 75px;
+		width: 700px;
+		margin-left: 85px;
 	}
 	
 	#pro-rij2 {
-		margin-left: 75px;
+		margin-left: 85px;
 	}
 	
 	.foto {
@@ -381,7 +381,7 @@
 	
 	#links {
 		margin-top: 100px;
-		margin-left: 5px;
+		margin-left: 10px;
 	}
 	
 	span.text-content {
@@ -390,7 +390,7 @@
 	
 	#rechts {
 		margin-top: -150px;
-		margin-left: 700px;
+		margin-left: 800px;
 	}
 	
 	.button {
@@ -512,10 +512,11 @@
 	}
 	.middle {
 			width: 900px;
+			margin-right: 0px;
 		}
-	
-	
 }
+
+
 	
 @media (max-width:550px) {
     .navbar-nav > li {
@@ -526,6 +527,8 @@
     .navbar-collapse.in {
         height: 335px!important;
     }
+	
+	.
     
 }
 	
