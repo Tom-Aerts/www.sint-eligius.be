@@ -649,12 +649,13 @@
 	
 	#prikbord {
 		width: 360px;
-		height: 1000px;
+		height: 1700px;
 		margin-left: 0px
 	}
 	
 	.profiel {
 		width: 200px;
+		height: 400px;
 		margin-left: 75px;
 	}
 	
@@ -664,10 +665,13 @@
 	
 	.foto {
 		margin-left: 25px;
+		display: block;
 	}
 	
 	.teksttwee {
-		margin-left: 170px;
+		margin-top: 10px;
+		margin-left: 20px;
+		width: 200px;
 	}
 	
 	#links {
@@ -678,10 +682,16 @@
 	span.text-content {
 		width: 200px;
 	}
+		
+	.alletext {
+		margin-left: 35px;
+		font-size: 10pt;
+		height: 375px;
+	}
 	
 	#rechts {
-		margin-top: -150px;
-		margin-left: 700px;
+		margin-top: -50px;
+		margin-left: 285px;
 	}
 	.button {
 		margin-top: 15px;
