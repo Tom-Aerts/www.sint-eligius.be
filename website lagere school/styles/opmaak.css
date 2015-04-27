@@ -5,6 +5,10 @@ html, body {
     height: auto;
 }
 
+body {
+    margin-bottom: 2%;
+}
+
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Handlee', cursive;
 }
@@ -438,8 +442,7 @@ nav > li > a:hover {
 
 
 
-/*Prikbord*/
-
+/*Leerkrachten pagina - Prikbord*/
 
 /*het prikbord zelf*/
 #prikbord {
@@ -474,7 +477,7 @@ nav > li > a:hover {
   vertical-align: bottom;
 }
 
-.foto {
+.lkr-foto {
   height: 150px;
   width: 150px;
   background-color:;
@@ -589,6 +592,7 @@ span.text-content {
     margin-left: 80px;
     width: 210px;
 }
+
 .home
 {
     display: block;
@@ -596,8 +600,245 @@ span.text-content {
     color: white;
     font-family: 'Handlee', cursive;
 }
+
 .button > a
 {
   text-decoration: none;
 }
 
+
+/* Landingspagina */
+
+.ster{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 937px;
+}
+
+.slideshow{
+    position: absolute;
+    left: 235px;
+    top: 267px;
+}
+
+.geschiedenis{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.algemene_info{
+	position: absolute;
+    color: #000;
+}
+
+.opvoedingsproject{
+    position: absolute;
+    top: 90px;
+    left: 290px;
+    color: #000;
+}
+
+.schoolregelement{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.agenda{
+    position: absolute;
+    top: 335px;
+    left: 60px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.verslagen{
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.ster-foto{
+    position: absolute;
+    top: 352px;
+    left: 200px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.contactformulier{
+    position: absolute;
+    left: 365px;
+    top: 300px;
+    color: #000;
+}
+
+.info{
+    position: absolute;
+    left: 240px;
+    top: 346px;
+    color: #000;
+}
+
+.leerkrachten_submenu{
+    position: absolute;
+    left: 430px;
+    top: 120px;
+    transform: rotate(0deg);
+}
+
+.s1ste_Leerjaar{
+    position: absolute;
+    left: -20px;
+    top: 420px;
+    transform: rotate(0deg);
+    color: #000;
+}
+.s2de_Leerjaar{
+    position: absolute;
+    left: 10px;
+    top: 460px;
+    transform: rotate(0deg);
+    color: #000;
+}
+.s3de_Leerjaar{
+    position: absolute;
+    left: 40px;
+    top: 500;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s4de_Leerjaar{
+    position: absolute;
+    left: 50px;
+    top: 225px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s5de_Leerjaar{
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s6de_Leerjaar{
+    position: absolute;
+    left: 150px;
+    top: 140;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.Anderstaligen{
+    position: absolute;
+    left: -30px;
+    top: 130px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.Sportenspel{
+    width: 200px;
+    position: absolute;
+    left: -30px;
+    top: 189px;
+    transform: rotate(00deg);
+    color: #000;
+}
+
+.submenu_text{
+	font-size: 20pt;
+    color: #000;
+}
+
+
+/*Foto's - pagina*/
+
+#fotoprikbord {
+    height: 560px;
+    width: 1130px;
+    background-image: url("../images/kurk.jpg");
+    border: 8px solid #A52A2A;
+    border-radius: 25px;
+    vertical-align: bottom;
+}
+
+.polaroid {
+	height: 250px;
+	width: 200px;
+	background-color:white;
+	margin-left: 60px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	vertical-align: bottom;
+	display: inline-block;
+}
+	 
+.fotopolaroid {
+    height: 180px;
+	width: 160px;
+	background-color:black;
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	vertical-align: bottom;
+	display: inline-block;
+}
+	 
+.speld {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+	background-image: url(../images/speld.png);
+	margin-left:90px;
+	margin-right:50;
+	margin-top:-5px;	
+}
+	 
+.pijlterug {
+    float:right;
+}
+
+.foto-big {
+    -webkit-transition: all 2s ease; /* Safari and Chrome , Dit zorgt ervoor dat er een vertraging is in de transition van de images in de polaroids als je erop klikt, zie vergroot.js voor meer info*/ 
+    -moz-transition: all 2s ease; /* Firefox */
+    -ms-transition: all 2s ease; /* IE 9 */
+    -o-transition: all 2s ease; /* Opera */
+    transition: all 2s ease;
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	width: 90%;
+	height: 99%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	margin-left:5%;
+	text-align:center;
+}
+
+.resize {
+    max-width:80%;
+}
+
+.littlepic {
+    height: 180px;
+    width : 160px;
+}
+
+.bigpic {
+    height: 100%;
+    width : auto;
+}
