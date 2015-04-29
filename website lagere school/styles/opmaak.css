@@ -698,7 +698,7 @@ span.text-content {
     border-right:7px solid #2980B9
 } 
 
-.wifeo_sousmenu_ster {
+.wifeo_sousmenu_ster-visible {
     visibility:visible;
     opacity:1;
     max-height:15em;

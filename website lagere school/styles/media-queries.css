@@ -78,6 +78,11 @@
 		width:  900px;
 		margin-left:  120px;
 	}
+	
+	.footer_ster {
+		visibility: hidden;
+	}
+	
 	/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
@@ -154,6 +159,11 @@
 	
 	.mobimenuster {
 		display: block;
+		width: 720px;
+	}
+	
+	.footer_ster {
+		visibility: visible;
 	}
 	
 }
@@ -167,6 +177,10 @@
         transition:all 0.50s ease
     }
 	
+	.mobimenuster {
+		margin-left: 130px;
+	}
+	
 	.wifeo_sousmenu_ster {
         -webkit-transition: all 0.50s ease;
         -moz-transition: all 0.50s ease;
@@ -174,6 +188,15 @@
         -o-transition: all 0.50s ease;
         transition: all 0.50s ease
     }
+	
+	.footer_ster {
+		margin-left: 130px;
+		width: 680px;
+	}
+	
+	.footer1_ster {
+		margin-left: 20px;
+	}
 }
 
 @media only screen and (max-width:1000px) {
@@ -200,6 +223,12 @@
 	.top {
 		margin-top: 110px;
 	}
+	
+	.top_index {
+		margin-top: 20px;
+		margin-left: 90px;
+	}
+	
 	.bord-left {
 		display: none;
 	}
@@ -221,10 +250,20 @@
 		margin-left:  0px;
 		width: 850px;
 	}
+	
+	.footer_ster {
+		margin-left: 0px;
+		width: 720px;
+	}
 
 	.slogan {
 		width:  906px;
 		margin-left: 0px;
+	}
+	
+	.slogan_index {
+		text-align: center;
+		width: 500px;
 	}
 	
 	body {
@@ -234,6 +273,10 @@
 	
 	.header {
 		margin-left: 170px;
+	}
+	
+	.header_index {
+		margin-left: 0px;
 	}
 	
 	.logo-footer {
@@ -377,6 +420,10 @@
 			width: 950px;
 		}
 	
+	.footer_ster {
+		width: 680px;
+	}
+	
 	/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
@@ -429,9 +476,14 @@
 		visibility: hidden;
 	}
 	
+	.mobimenuster {
+		margin-left: 0px;
+	}
+	
 }
 
 	@media only screen and (max-width:950px) {
+		
 		.SubArt1 {
 			width: 710px;
 		}
@@ -491,6 +543,25 @@
 		.middle {
 			width: 950px;
 		}
+		
+		.header_index {
+			margin-left: 0px;
+		}
+		
+		.top_index {
+			margin-top: 20px;
+			margin-left: 85px;
+			width: 700px;
+		}
+		
+		.slogan_index {
+			margin-left: 0px;
+		}
+		
+		.footer_ster {
+			margin-left: 0px;
+			width: 680px;
+		}
 	
 	}
 
@@ -535,6 +606,10 @@
 		width: 700px;
 	}
 	
+	.footer_ster {
+		width: 680px;
+	}
+	
 	.menu-style > a > button {
 		width: 33%
 	}
@@ -542,11 +617,26 @@
 			width: 900px;
 			margin-right: 0px;
 		}
+	
+	.header_index {
+			margin-left: 0px;
+		}
+		
+		.top_index {
+			margin-top: 20px;
+			margin-left: 90px;
+			width: 700px;
+		}
+		
+		.slogan_index {
+			margin-left: 0px;
+		}
 }
 
 
 	
 @media (max-width:550px) {
+	
     .navbar-nav > li {
         width: 100%;
         height: 55px;
@@ -556,8 +646,21 @@
         height: 335px!important;
     }
 	
-	.
-    
+	.mobimenuster {
+		width: 500px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 500px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 500px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 500px;
+	}
 }
 	
 	@media only screen and (max-width:360px) {
@@ -668,6 +771,21 @@
 			margin-left: 0px;
 		}
 		
+		.mobimenuster {
+		width: 360px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 360px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 360px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 360px;
+	}
 		/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
@@ -828,6 +946,22 @@
 	.logo-footer > img {
     margin-left: 5px;
 	}
+	
+	.mobimenuster {
+		width: 355px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 355px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 355px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 355px;
+	}
 }
 @media only screen and (max-width:327px) {
 	.bord-mid {
@@ -928,6 +1062,22 @@
 	.logo-footer > img {
     margin-left: 5px;
 	}
+	
+	.mobimenuster {
+		width: 327px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 327px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 327px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 327px;
+	}
 }
 @media only screen and (max-width:320px) {
 	.bord-mid {
@@ -1027,5 +1177,21 @@
 		}
 	.logo-footer > img {
     margin-left: 5px;
+	}
+	
+	.mobimenuster {
+		width: 320px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 320px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 320px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 320px;
 	}
 }
