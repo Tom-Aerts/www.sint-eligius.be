@@ -41,78 +41,78 @@
 	</header>
  
 <nav class="mobimenuster">
-	<div class='wifeo_conteneur_menu'>
-		<div class='wifeo_pagemenu'>
-			<a href='http://index.html'>HOME</a>
+	<div class='wifeo_conteneur_menu_ster'>
+		<div class='wifeo_pagemenu_ster'>
+			<a href='index.html'>HOME</a>
 		</div>
-		<div class='wifeo_rubrique'>
+		<div class='wifeo_rubrique_ster'>
 			<a href='#mw999'>ALGEMENE INFO</a>
-			<div class='wifeo_sousmenu'>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://geschiedenis.html'>GESCHIEDENIS</a>
+			<div class='wifeo_sousmenu_ster'>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>GESCHIEDENIS</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://opvoedingsproject.html'>OPVOEDINGSPROJECT</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>OPVOEDINGSPROJECT</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://schoolreglement.html'>SCHOOLREGLEMENT</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>SCHOOLREGLEMENT</a>
 				</div>
 			</div>
 		</div>
-		<div class='wifeo_rubrique'>
+		<div class='wifeo_rubrique_ster'>
 			<a href='#mw999'>KLASSEN</a>
-			<div class='wifeo_sousmenu'>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>AN</a>
+			<div class='wifeo_sousmenu_ster'>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>AN</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Sport en Spel</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Sport en Spel</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>1ste Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>1ste Leerjaar</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>2de Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>2de Leerjaar</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>3de Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>3de Leerjaar</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>4de Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>4de Leerjaar</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>5de Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>5de Leerjaar</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>6de Leerjaar</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>6de Leerjaar</a>
 				</div>
 			</div>
 		</div>
-		<div class='wifeo_pagemenu'>
+		<div class='wifeo_pagemenu_ster'>
 			<a href='http://leerkrachten.html'>LEERKRACHTEN</a>
 		</div>
-		<div class='wifeo_rubrique'>
+		<div class='wifeo_rubrique_ster'>
 			<a href='#mw999'>ACTIVITEITEN</a>
-			<div class='wifeo_sousmenu'>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Agenda</a>
+			<div class='wifeo_sousmenu_ster'>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Agenda</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Verslagen</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Verslagen</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Foto's</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Foto's</a>
 				</div>
 			</div>
 		</div>
-		<div class='wifeo_rubrique'>
+		<div class='wifeo_rubrique_ster'>
 			<a href='#mw999'>CONTACT</a>
-			<div class='wifeo_sousmenu'>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Adres/Ligging/Uren</a>
+			<div class='wifeo_sousmenu_ster'>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Adres/Ligging/Uren</a>
 				</div>
-				<div class='wifeo_pagesousmenu'>
-					<a href='http://index.html'>Contactformulier</a>
+				<div class='wifeo_pagesousmenu_ster'>
+					<a href=''>Contactformulier</a>
 				</div>
 			</div>
 		</div>
@@ -173,6 +173,13 @@
 </div>
 </div>
 <script src="scripts/ster_script.js" type="text/javascript"></script>
+<script>
+        $(".wifeo_rubrique_ster").on("click", function() {
+            $(".wifeo_sousmenu_ster").removeClass("wifeo_sousmenu-visible");
+            $(this).find(".wifeo_sousmenu_ster").addClass("wifeo_sousmenu-visible");
+        });
+        $(window).konami();
+    </script>
 </body>
 
 </html>
