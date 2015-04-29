@@ -158,6 +158,24 @@
 	
 }
 
+@media screen and (min-device-width:1024px) {
+    .wifeo_sousmenu_ster {
+        -webkit-transition:all 0.50s ease;
+        -moz-transition:all 0.50s ease;
+        -ms-transition:all 0.50s ease;
+        -o-transition:all 0.50s ease;
+        transition:all 0.50s ease
+    }
+	
+	.wifeo_sousmenu {
+        -webkit-transition: all 0.50s ease;
+        -moz-transition: all 0.50s ease;
+        -ms-transition: all 0.50s ease;
+        -o-transition: all 0.50s ease;
+        transition: all 0.50s ease
+    }
+}
+
 @media only screen and (max-width:1000px) {
 	.SubArt1 {
 			width: 810px;
