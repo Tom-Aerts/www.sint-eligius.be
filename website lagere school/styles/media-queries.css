@@ -147,6 +147,16 @@
 	
 	
 }
+@media only screen and (max-width:1100px) {
+	.ster {
+		visibility: hidden;
+	}
+	
+	.mobimenuster {
+		visibility: visible;
+	}
+	
+}
 
 @media only screen and (max-width:1000px) {
 	.SubArt1 {
