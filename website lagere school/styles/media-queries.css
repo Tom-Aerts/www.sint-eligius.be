@@ -670,6 +670,10 @@
     	width:500px
 	}
 	
+	.top {
+		margin-top: 20px;
+	}
+	
 }
 	
 	@media only screen and (max-width:360px) {
