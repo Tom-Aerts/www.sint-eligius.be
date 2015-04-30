@@ -436,7 +436,7 @@ nav > li > a:hover {
 #prikbord {
     height:520px;
     width: 1130px;
-    background-image: url(../images/kurk.jpg);
+    background-image: url(../images/leerkrachten/kurk.jpg);
     border: 8px solid;
     border-radius: 25px;
     border-color: brown;
@@ -460,7 +460,7 @@ nav > li > a:hover {
   height: 30px;
   width: 30px;
   display: inline-block;
-  background-image: url(../images/duimspijker.png);
+  background-image: url(../images/leerkrachten/duimspijker.png);
   margin-top: 3px;
   vertical-align: bottom;
 }
@@ -539,7 +539,7 @@ span.text-content {
   margin-top: 205px;
   margin-right: -100px;
   margin-left: 16px;
-  background-image: url(../images/pijllinks.png);
+  background-image: url(../images/leerkrachten/pijllinks.png);
   background-repeat: no-repeat;
 }
 
@@ -548,7 +548,7 @@ span.text-content {
   width: 64px;
   margin-left: 1033px;
   margin-top: -257px;
-  background-image: url(../images/pijlrechts.png);
+  background-image: url(../images/leerkrachten/pijlrechts.png);
   background-repeat: no-repeat;
 }
 
@@ -878,7 +878,7 @@ span.text-content {
 #fotoprikbord {
     height: 560px;
     width: 1130px;
-    background-image: url("../images/kurk.jpg");
+    background-image: url("../images/leerkrachten/kurk.jpg");
     border: 8px solid #A52A2A;
     border-radius: 25px;
     vertical-align: bottom;
@@ -910,7 +910,7 @@ span.text-content {
     height: 20px;
     width: 20px;
     display: inline-block;
-	background-image: url(../images/speld.png);
+	background-image: url(../images/fotopagina/speld.png);
 	margin-left:90px;
 	margin-right:50;
 	margin-top:-5px;	
