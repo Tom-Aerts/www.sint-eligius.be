@@ -606,6 +606,10 @@ span.text-content {
     text-decoration:none
 }
 
+.wifeo_pagemenu_ster > a > img {
+    margin-right: 10px;
+}
+
 .wifeo_pagemenu_ster:hover > a { 
     color:#fff;
     text-decoration:none;
@@ -615,6 +619,10 @@ span.text-content {
 .wifeo_rubrique_ster > a {
     color:#fff;
     text-decoration:none
+}
+
+.wifeo_rubrique_ster > a > img {
+    margin-right: 10px;
 }
 
 .wifeo_rubrique_ster:hover > a {
@@ -705,6 +713,10 @@ span.text-content {
     display:table
 }
 
+.ster_mobimenu {
+    height: 20pt;
+    width: 20pt;
+}
 
 /* Ster - Normaal menu */
 .ster{

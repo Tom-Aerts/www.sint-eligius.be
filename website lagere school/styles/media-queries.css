@@ -661,6 +661,15 @@
 	.wifeo_rubrique_ster {
 		width: 500px;
 	}
+	
+	.wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
+    	width:500px
+	}
+
+	.wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
+    	width:500px
+	}
+	
 }
 	
 	@media only screen and (max-width:360px) {
@@ -786,6 +795,19 @@
 	.wifeo_rubrique_ster {
 		width: 360px;
 	}
+		
+	.wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
+    	width:355px
+	}
+
+	.wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
+    	width:355px
+	}
+		
+	.container_index {
+		padding-left: 0px;
+	}
+	
 		/*Mediaqueries Leerkrachten.html*/
 	
 	#footerprikbord{
