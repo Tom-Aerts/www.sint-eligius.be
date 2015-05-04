@@ -675,6 +675,7 @@
 		margin-top: 20px;
 	}
 	
+	
 }
 	
 	@media only screen and (max-width:360px) {
@@ -821,7 +822,7 @@
 	}
 	
 	.prikbord {
-		width: 360px;
+		width: 375px;
 		height: auto;
 		margin-left: 0px;
 	}
