@@ -90,7 +90,7 @@
 		margin-left:  120px;
 	}
 	
-	#prikbord {
+	.prikbord {
 		width: 870px;
 		margin-left: 120px;
 	}
@@ -431,7 +431,7 @@
 		margin-left: 0px;
 	}
 	
-	#prikbord {
+	.prikbord {
 		width: 900px;
 		height: 1000px;
 		margin-left: 0px
@@ -819,7 +819,7 @@
 		margin-left: 0px;
 	}
 	
-	#prikbord {
+	.prikbord {
 		width: 360px;
 		height: 1700px;
 		margin-left: 0px

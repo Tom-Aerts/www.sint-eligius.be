@@ -433,7 +433,7 @@ nav > li > a:hover {
 
 /*Leerkrachten pagina - Prikbord*/
 /*het prikbord zelf*/
-#prikbord {
+.prikbord {
     height:520px;
     width: 1130px;
     background-image: url(../images/leerkrachten/kurk.jpg);
@@ -875,7 +875,7 @@ span.text-content {
 
 
 /*Foto's pagina*/
-#fotoprikbord {
+.prikbord {
     height: 560px;
     width: 1130px;
     background-image: url("../images/leerkrachten/kurk.jpg");
