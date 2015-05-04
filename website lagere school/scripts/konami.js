@@ -13,7 +13,7 @@
                 input.shift();
 
                 if (input.length == 0) {
-                    window.location.href = "/konami.html";
+                    window.location.href = "http://7cw-01.commercieelwebverkeer.be/LagereSchool/konami.html";
                 }
             } else {
                 input = command.slice(0);
