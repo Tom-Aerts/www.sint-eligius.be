@@ -352,7 +352,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 
 /*Mobile menu*/
 .navbar {
-    display: none;
+    visibility: hidden;
 }
 
 .navbar-nav > li > a {
