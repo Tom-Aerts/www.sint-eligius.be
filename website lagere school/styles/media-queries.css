@@ -92,6 +92,7 @@
 	
 	.prikbord {
 		width: 870px;
+		height: auto;
 		margin-left: 120px;
 	}
 	
@@ -433,7 +434,7 @@
 	
 	.prikbord {
 		width: 900px;
-		height: 1000px;
+		height: auto;
 		margin-left: 0px
 	}
 	
@@ -821,8 +822,8 @@
 	
 	.prikbord {
 		width: 360px;
-		height: 1700px;
-		margin-left: 0px
+		height: auto;
+		margin-left: 0px;
 	}
 	
 	.profiel {
