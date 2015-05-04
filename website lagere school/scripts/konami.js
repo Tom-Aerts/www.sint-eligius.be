@@ -13,7 +13,7 @@
                 input.shift();
 
                 if (input.length == 0) {
-                    return alert("You are awesome");
+                    window.location.href = "/konami.html";
                 }
             } else {
                 input = command.slice(0);
