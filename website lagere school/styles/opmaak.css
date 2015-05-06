@@ -434,7 +434,11 @@ nav > li > a:hover {
 /*Leerkrachten pagina - Prikbord*/
 /*het prikbord zelf*/
 .prikbord {
-    height:520px;
+    min-height: 520px;
+    height: auto !important;
+    /* for IE as it does not support min-height */
+    
+    height: 520px;
     width: 1130px;
     background-image: url(../images/leerkrachten/kurk.jpg);
     border: 8px solid;
