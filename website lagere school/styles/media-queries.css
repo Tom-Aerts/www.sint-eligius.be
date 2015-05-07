@@ -705,10 +705,8 @@
 	}
 	
 	.top {
-		margin-top: 20px;
+		margin-top: 90px;
 	}
-	
-	
 }
 	
 	@media only screen and (max-width:360px) {
@@ -1237,7 +1235,7 @@
 			font-size: 9pt;
 		}
 		.footer {
-			width:  320px;
+			width:  375px;
 			margin-left: 0px;
 		}
 	.logo-footer > img {
