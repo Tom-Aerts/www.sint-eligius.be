@@ -659,7 +659,7 @@
 	
 	
 		.header_fotopagina {
-			margin-left: 100px
+			margin-left: 100px;
 		}
 	
 		.slogan_fotopagina {
@@ -744,6 +744,15 @@
 			width: 360px;
 			margin-left: 0px;
 		}
+		
+		.slogan_fotopagina {
+			width: 330px;
+		}
+		
+		.header_fotopagina {
+			width: 330px;
+		}
+		
 		.slogan > h3 {
 		font-size: 15pt;
 	}
