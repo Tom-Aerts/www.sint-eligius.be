@@ -711,6 +711,7 @@
 	.footer {
 		width: 375px;
 	}
+	
 }
 	
 	@media only screen and (max-width:360px) {
@@ -801,7 +802,7 @@
 		}
 		#navbar-btn-toggle1 {
             height: 60px;
-            width: 70px;
+            width: 60px;
 			border-radius: 0px!important;
         }
         
@@ -926,6 +927,14 @@
 	}
 }
 @media only screen and (max-width:355px) {
+	body {
+		width: 355px;
+	}
+	
+	.navbar {
+		width: 355px;
+	}
+	
 	.bord-mid {
 			width: 355px;
 		}
@@ -939,10 +948,10 @@
 			padding-right: 2px;
 		}
 	.header {
-			width: 355px;
+			width: 340px;
 		}
 		.slogan {
-			width: 355px;
+			width: 340px;
 			margin-left: 0px;
 		}
 		.slogan > h3 {
@@ -1039,6 +1048,11 @@
 	}
 	
 	.wifeo_rubrique_ster {
+		width: 355px;
+	}
+	
+	.prikbord {
+		margin-right: 0px;
 		width: 355px;
 	}
 }
