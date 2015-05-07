@@ -39,10 +39,11 @@
 		margin-left:  120px;
 		
 	}
-
-	article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	
+	.ButtonHome {
+		margin-left: 50px;
 	}
-
+	
 	.wifeo_conteneur_menu {
 		width:  250px;
 	}
@@ -133,6 +134,10 @@
 		margin-left: 120px;
 	}
 	
+	.home-lkr {
+		visibility: hidden;
+	}
+	
 	.lkr-foto {
 		margin-left: 0px;
 	}
@@ -153,8 +158,6 @@
 		margin-left: 120px;
 	}
 	
-	
-	
 }
 @media only screen and (max-width:1100px) {
 	.ster {
@@ -169,9 +172,6 @@
 	.footer_ster {
 		visibility: visible;
 	}
-	
-	.header {
-		
 	
 }
 
@@ -265,7 +265,7 @@
 
 	.slogan {
 		width:  670px;
-		margin-left: 0px;
+		margin-left: 110px;
 	}
 	
 	.slogan_index {
@@ -279,7 +279,7 @@
 	}
 	
 	.header {
-		margin-left: 90px;
+		margin-left: 200px;
 	}
 	
 	.header_index {
@@ -403,7 +403,7 @@
 	h3 {
 		font-size: 20pt;
 	}
-	/* nog aan te passen */
+	
 	.footer {
 		width:  900px;
 		margin-left: 0px;
@@ -543,7 +543,7 @@
 		}
 	
 		.slogan {
-			margin-left: -20px;
+			margin-left: 90px;
 		}
 	
 		.middle {
@@ -568,7 +568,10 @@
 			margin-left: 0px;
 			width: 680px;
 		}
-	
+		
+		.ButtonHome {
+			margin-left: 30px;
+		}
 	}
 
 @media only screen and (max-width:900px) {
@@ -601,11 +604,11 @@
 	}
 	
 	.slogan {
-		margin-left: -40px;
+		margin-left: 110px;
 	}
 	
 	.header {
-		margin-left: 150px;
+		margin-left: 190px;
 	}
 	
 	.footer {
@@ -874,7 +877,7 @@
 	}
 	.button {
 		margin-top: 15px;
-		margin-left: 15px;
+		margin-left: -10px;
 	}
 		/* moet nog aangepast worden */
 		
