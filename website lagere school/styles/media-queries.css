@@ -707,6 +707,10 @@
 	.top {
 		margin-top: 90px;
 	}
+	
+	.footer {
+		width: 375px;
+	}
 }
 	
 	@media only screen and (max-width:360px) {
@@ -853,7 +857,7 @@
 	}
 	
 	.prikbord {
-		width: 375px;
+		width: 360px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
@@ -908,6 +912,9 @@
 		margin-left: 80px;
 	}
 		
+	.pijlterug {
+		margin-right: 10px;
+	}
 }
 @media only screen and (max-width:355px) {
 	.bord-mid {
