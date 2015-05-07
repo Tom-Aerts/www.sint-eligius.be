@@ -487,6 +487,14 @@
 		margin-left: 0px;
 	}
 	
+	.header_fotopagina {
+		margin-left: 80px
+	}
+	
+	.slogan_fotopagina {
+		margin-left: 0px;
+	}
+	
 }
 
 	@media only screen and (max-width:950px) {
@@ -572,6 +580,14 @@
 		.ButtonHome {
 			margin-left: 30px;
 		}
+		
+		.header_fotopagina {
+			margin-left: 80px
+		}
+	
+		.slogan_fotopagina {
+			margin-left: 0px;
+		}
 	}
 
 @media only screen and (max-width:900px) {
@@ -639,6 +655,15 @@
 		
 		.slogan_index {
 			margin-left: 0px;
+		}
+	
+	
+		.header_fotopagina {
+			margin-left: 100px
+		}
+	
+		.slogan_fotopagina {
+			margin-left: 20px;
 		}
 }
 
@@ -832,6 +857,7 @@
 	.prikbord {
 		width: 375px;
 		margin-left: 0px;
+		margin-right: 0px;
 	}
 	
 	.profiel {
@@ -879,8 +905,10 @@
 		margin-top: 15px;
 		margin-left: -10px;
 	}
-		/* moet nog aangepast worden */
-		
+	
+	.polaroid {
+		margin-left: 80px;
+	}
 		
 }
 @media only screen and (max-width:355px) {
