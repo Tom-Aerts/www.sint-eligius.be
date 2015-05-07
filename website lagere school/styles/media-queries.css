@@ -75,7 +75,7 @@
 	}
 
 	.footer {
-		width:  900px;
+		width:  870px;
 		margin-left:  120px;
 	}
 	
@@ -92,7 +92,7 @@
 	
 	.prikbord {
 		width: 870px;
-		margin-left: 120px;
+		margin-left: 150px;
 	}
 	
 	.profiel {
@@ -133,6 +133,10 @@
 		margin-left: 120px;
 	}
 	
+	.lkr-foto {
+		margin-left: 0px;
+	}
+	
 }
 @media only screen and (max-width:1200px) {
 
@@ -146,7 +150,7 @@
 	}
 
 	.footer {
-		margin-left: 5px;
+		margin-left: 120px;
 	}
 	
 	
@@ -165,6 +169,9 @@
 	.footer_ster {
 		visibility: visible;
 	}
+	
+	.header {
+		
 	
 }
 
@@ -248,7 +255,7 @@
 	}
 	.footer {
 		margin-left:  0px;
-		width: 850px;
+		width: 900px;
 	}
 	
 	.footer_ster {
@@ -257,7 +264,7 @@
 	}
 
 	.slogan {
-		width:  906px;
+		width:  670px;
 		margin-left: 0px;
 	}
 	
@@ -272,7 +279,7 @@
 	}
 	
 	.header {
-		margin-left: 170px;
+		margin-left: 90px;
 	}
 	
 	.header_index {
@@ -398,7 +405,7 @@
 	}
 	/* nog aan te passen */
 	.footer {
-		width:  850px;
+		width:  900px;
 		margin-left: 0px;
 	}
 	.size {
@@ -465,6 +472,7 @@
 	#rechts {
 		margin-top: -150px;
 		margin-left: 800px;
+		padding-bottom: 165px;
 	}
 	
 	.button {
@@ -514,8 +522,7 @@
 		}
 
 		.footer {
-			width:  750px;
-			margin-left: 65px;
+			width:  900px;
 		}
 
 		.footer-adresgegevens{
@@ -602,7 +609,7 @@
 	}
 	
 	.footer {
-		width: 700px;
+		width: 900px;
 	}
 	
 	.footer_ster {
@@ -863,6 +870,7 @@
 	#rechts {
 		margin-top: -50px;
 		margin-left: 280px;
+		padding-bottom: 0px;
 	}
 	.button {
 		margin-top: 15px;

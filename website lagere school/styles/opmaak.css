@@ -391,7 +391,7 @@ nav > li > a:hover {
 
 /*Bottom*/
 .footer {
-    width: 1110px;
+    width: 1130px;
     margin-top: 23px;
     border-top: 1px solid #0665ad;
     display: block;
@@ -445,6 +445,7 @@ nav > li > a:hover {
     border-radius: 25px;
     border-color: brown;
     vertical-align: bottom;
+    margin-left: 15px;
 }
 
 /*alle vakjes met de foto en korte informatie*/
@@ -540,7 +541,7 @@ span.text-content {
   height: 64px;
   width: 64px;
   float: left;
-  margin-top: 205px;
+  margin-top: 215px;
   margin-right: -100px;
   margin-left: 16px;
   background-image: url(../images/leerkrachten/pijllinks.png);
@@ -551,7 +552,7 @@ span.text-content {
   height: 64px;
   width: 64px;
   margin-left: 1033px;
-  margin-top: -257px;
+  margin-top: -266px;
   background-image: url(../images/leerkrachten/pijlrechts.png);
   background-repeat: no-repeat;
 }
