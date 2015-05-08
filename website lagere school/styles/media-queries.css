@@ -1,0 +1,1256 @@
+@media only screen and (max-width:1300px) {
+
+	.bord-mid {
+		width:  600px;
+		margin-left: 5px;
+	}
+	.art1 {
+		padding-right: 20px;
+    width: 180px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+	.art2 {
+		padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+	.art3 {
+		padding-left: 10px;
+    width: 180px;
+    border-bottom: none!important;
+    float: left;
+    display: inline-block;
+	}
+
+	.bord-right {
+		width:  600px;
+		margin-top:  5px;
+		margin-left:  425px;
+		min-height: 250px;
+	}
+
+	.bord-left {
+		width:  300px;
+		margin-left:  120px;
+		
+	}
+	
+	.ButtonHome {
+		margin-left: 50px;
+	}
+	
+	.wifeo_conteneur_menu {
+		width:  250px;
+	}
+
+	.wifeo_pagemenu, .wifeo_rubrique {
+		width:  260px;
+	}
+
+	.wifeo_sousmenu-visible {
+		width:  260px;
+	}
+
+	.wifeo_pagesousmenu {
+		width:  260px;
+	}
+
+	.wifeo_pagemenu:hover, .wifeo_rubrique:hover {
+    background-color: #3CA473;
+    width: 260px;
+	}
+	
+	.footer-contactgegevens {
+		padding-left:  20px;
+		width:  250px;
+	}
+
+	.footer-adresgegevens {
+		padding-left:  20px;
+		width:  250px;
+	}
+
+	.footer {
+		width:  870px;
+		margin-left:  120px;
+	}
+	
+	.footer_ster {
+		visibility: hidden;
+	}
+	
+	/*Mediaqueries Leerkrachten.html*/
+	
+	#footerprikbord{
+		width:  900px;
+		margin-left:  120px;
+	}
+	
+	.prikbord {
+		width: 870px;
+		margin-left: 150px;
+	}
+	
+	.profiel {
+		width: 320px;
+		margin-left: 75px;
+	}
+	
+	#pro-rij2 {
+		margin-left: 50px;
+	}
+	
+	.foto {
+		margin-left: -10px;
+	}
+	
+	.teksttwee {
+        width: auto;
+		margin-left: 130px;
+	}
+	
+	#links {
+		margin-left: 5px;
+	}
+	
+	span.text-content {
+		width: 320px;
+	}
+	
+	#rechts {
+		margin-left: 785px;
+	}
+	
+	#footerprikbord {
+		width: 855px;
+	}
+	
+	.button {
+		margin-left: 120px;
+	}
+	
+	.home-lkr {
+		visibility: hidden;
+	}
+	
+	.lkr-foto {
+		margin-left: 0px;
+	}
+	
+}
+@media only screen and (max-width:1200px) {
+
+	.bord-left {
+		margin-left:  5px;
+	}
+
+	.bord-right {
+		margin-left:  310px;
+		min-height: 250px;
+	}
+
+	.footer {
+		margin-left: 120px;
+	}
+	
+}
+@media only screen and (max-width:1100px) {
+	.ster {
+		display: none;
+	}
+	
+	.mobimenuster {
+		display: block;
+		width: 720px;
+	}
+	
+	.footer_ster {
+		visibility: visible;
+	}
+	
+}
+
+@media screen and (min-device-width:1024px) {
+    .wifeo_sousmenu {
+        -webkit-transition:all 0.50s ease;
+        -moz-transition:all 0.50s ease;
+        -ms-transition:all 0.50s ease;
+        -o-transition:all 0.50s ease;
+        transition:all 0.50s ease
+    }
+	
+	.mobimenuster {
+		margin-left: 130px;
+	}
+	
+	.wifeo_sousmenu_ster {
+        -webkit-transition: all 0.50s ease;
+        -moz-transition: all 0.50s ease;
+        -ms-transition: all 0.50s ease;
+        -o-transition: all 0.50s ease;
+        transition: all 0.50s ease
+    }
+	
+	.footer_ster {
+		margin-left: 130px;
+		width: 680px;
+	}
+	
+	.footer1_ster {
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.SubArt1 {
+			width: 810px;
+		}
+
+		.SubArt2 {
+			width: 810px;
+		}
+
+		.SubArt3 {
+			width: 810px;
+		}
+		.art1 {
+			width: 810px;
+		}
+		.art2 {
+			width: 810px
+		}
+		.art3 {
+			width: 810px
+		}
+	.top {
+		margin-top: 110px;
+	}
+	
+	.top_index {
+		margin-top: 20px;
+		margin-left: 90px;
+	}
+	
+	.bord-left {
+		display: none;
+	}
+
+	.middle {
+		width:  950px;
+		margin:  0px auto;
+	}
+
+	.bord-right {
+		margin-left: 0px;
+		width: 850px;
+	}
+	.bord-mid {
+		margin-left: 0px;
+		width: 850px;
+	}
+	.footer {
+		margin-left:  0px;
+		width: 900px;
+	}
+	
+	.footer_ster {
+		margin-left: 0px;
+		width: 720px;
+	}
+
+	.slogan {
+		width:  670px;
+		margin-left: 110px;
+	}
+	
+	.slogan_index {
+		text-align: center;
+		width: 500px;
+	}
+	
+	body {
+		margin-left: 35px;
+		margin-right: 0px;
+	}
+	
+	.header {
+		margin-left: 200px;
+	}
+	
+	.header_index {
+		margin-left: 0px;
+	}
+	
+	.logo-footer {
+		width: 30px;
+		height: 30px;
+	}
+	
+	.my-custom-nav .navbar-collapse .navbar-nav > li {
+        padding-left:10px!important;
+    }
+
+    .my-custom-nav .user-dropdown > .dropdown-menu > li {
+        padding-left:5px!important;
+    }
+    
+    .navbar-collapse.in {
+        height: 215px!important;
+    }   
+        
+    .navbar {
+        visibility: visible;
+    }
+    
+    .navbar-toggle {
+        display:block;
+    }
+	
+	.navbar-nav {
+		width: 100%;
+	}
+    
+    .navbar-nav > li {
+    	width: 100%;
+        height: 37px;
+    }
+        
+    .navbar-nav > li > a {
+        padding-left: 0px!important;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 0px;
+    }
+        
+    .navbar-collapse {
+        border: none;
+        box-shadow: none;
+		padding-right: 0px;
+    }
+        
+    .navbar-collapse.in {
+        height: 215px!important;
+    }
+	
+	.mobi-btn {
+		width: 100%;
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		color: #fff;
+		text-align: left;
+		height: 50px;
+		display: block
+	}
+	
+	.mobi-btn:hover {
+		width: 100%;
+		border: none;
+		border-radius: 0px;
+		background-color: #3CA473;
+		color: #fff;
+	}
+	
+	.mobi-btn1 {
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		color: #fff;
+		text-align: left;
+		
+	}
+	
+	.mobi-btn1:hover {
+		border: none;
+		border-radius: 0px;
+		background-color: #3CA473;
+		color: #fff;
+	}
+	
+	.menu-style > a > button {
+		width: 35%;
+	}
+	
+	.menu-style > a > button {
+		margin-left: 10px;
+	}
+	
+	p, a {
+		font-size: 12pt;
+	}
+	
+	.slogan > h3 {
+		font-size: 22pt;
+	}
+	
+	.title > a > h1 {
+		font-size: 28pt;
+	}
+	
+	h1 {
+		font-size: 36pt;
+	}
+	
+	h2 {
+		font-size: 30pt;
+	}
+	
+	h3 {
+		font-size: 20pt;
+	}
+	
+	.footer {
+		width:  900px;
+		margin-left: 0px;
+	}
+	.size {
+		font-size: 12pt
+	}
+	.footer-adresgegevens{
+		margin-left:  130px;
+		width: 260px;
+		padding-left: 0px;
+	
+	}
+
+	.footer-contactgegevens {
+		width:  260px;
+		padding-left:  0px;
+		margin-left: 0px;
+	}
+	.middle {
+			width: 950px;
+		}
+	
+	.footer_ster {
+		width: 680px;
+	}
+	
+	/*Mediaqueries Leerkrachten.html*/
+	
+	#footerprikbord{
+		width:  900px!important;
+		margin-left: 0px;
+	}
+	
+	.prikbord {
+		width: 900px;
+		margin-left: 0px
+	}
+	
+	.profiel {
+		width: 700px;
+		margin-left: 85px;
+	}
+	
+	#pro-rij2 {
+		margin-left: 85px;
+	}
+	
+	.foto {
+		margin-left: 25px;
+	}
+	
+	.teksttwee {
+		margin-left: 170px;
+	}
+	
+	#links {
+		margin-top: 100px;
+		margin-left: 10px;
+	}
+	
+	span.text-content {
+		width: 600px;
+	}
+	
+	#rechts {
+		margin-top: -150px;
+		margin-left: 800px;
+		padding-bottom: 165px;
+	}
+	
+	.button {
+		margin-left: 0px;
+	}
+	
+	.home-lkr {
+		visibility: hidden;
+	}
+	
+	.mobimenuster {
+		margin-left: 0px;
+	}
+}
+
+	@media only screen and (max-width:950px) {
+		
+		.SubArt1 {
+			width: 710px;
+		}
+
+		.SubArt2 {
+			width: 710px;
+		}
+
+		.SubArt3 {
+			width: 710px;
+		}
+		.art1 {
+			width: 710px;
+		}
+		.art2 {
+			width: 710px
+		}
+		.art3 {
+			width: 710px
+		}	
+		.bord-mid {
+			width:  750px;
+			margin-left:  65px;
+		}
+
+		.bord-right {
+			width:  750px;
+			margin-left:  65px;
+		}
+
+		.footer {
+			width:  900px;
+		}
+
+		.footer-adresgegevens{
+			margin-left:  130px;
+			width: 250px;
+			padding-left: 0px;
+	
+		}
+
+		.footer-contactgegevens {
+			width:  250px;
+			padding-left:  0px;
+			margin-left: 0px;
+		}
+	
+		.header {
+			margin-left: 180px;
+		}
+	
+		.slogan {
+			margin-left: 90px;
+		}
+	
+		.middle {
+			width: 950px;
+		}
+		
+		.header_index {
+			margin-left: 0px;
+		}
+		
+		.top_index {
+			margin-top: 20px;
+			margin-left: 85px;
+			width: 700px;
+		}
+		
+		.slogan_index {
+			margin-left: 0px;
+		}
+		
+		.footer_ster {
+			margin-left: 0px;
+			width: 680px;
+		}
+		
+		.ButtonHome {
+			margin-left: 30px;
+		}
+	}
+
+@media only screen and (max-width:900px) {
+	.SubArt1 {
+			width: 660px;
+		}
+
+		.SubArt2 {
+			width: 660px;
+		}
+
+		.SubArt3 {
+			width: 660px;
+		}
+		.art1 {
+			width: 660px;
+		}
+		.art2 {
+			width: 660px
+		}
+		.art3 {
+			width: 660px
+		}
+	.bord-mid {
+		width:  700px;
+	}
+	
+	.bord-right {
+		width: 700px;
+	}
+	
+	.slogan {
+		margin-left: 110px;
+	}
+	
+	.header {
+		margin-left: 190px;
+	}
+	
+	.footer {
+		width: 900px;
+	}
+	
+	.footer_ster {
+		width: 680px;
+	}
+	
+	.menu-style > a > button {
+		width: 33%
+	}
+	.middle {
+			width: 900px;
+			margin-right: 0px;
+		}
+	
+	.header_index {
+			margin-left: 0px;
+		}
+		
+		.top_index {
+			margin-top: 20px;
+			margin-left: 90px;
+			width: 700px;
+		}
+		
+		.slogan_index {
+			margin-left: 0px;
+		}
+}
+
+
+	
+@media (max-width:550px) {
+	
+    .navbar-nav > li {
+        width: 100%;
+        height: 55px;
+    }
+        
+    .navbar-collapse.in {
+        height: 335px!important;
+    }
+	
+	.mobimenuster {
+		width: 500px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 500px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 500px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 500px;
+	}
+	
+	.wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
+    	width:500px
+	}
+
+	.wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
+    	width:500px
+	}
+	
+	.top {
+		margin-top: 90px;
+	}
+	
+	.footer {
+		width: 375px;
+	}
+	
+}
+	
+	@media only screen and (max-width:360px) {
+		body {
+			background-image: none;
+			margin-left: 0px
+		}
+		.bord-mid {
+			margin-left: 0px;
+			width: 360px;
+			margin-right: 0px;
+		}
+		.bord-right {
+			margin-left: 0px;
+			width: 360px;
+			height: 500px;
+			display: block;
+			margin-right: 0px;
+		}
+		.header {
+			margin-left: 0px;
+			width: 360px;
+		}
+		.querry {
+			width: 60px
+		}
+		.logo-rightheader {
+			padding-right: 3px;
+		}
+		.slogan {
+			width: 360px;
+			margin-left: 0px;
+		}
+		
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 360px;
+		}
+		h1 {
+			font-size: 28pt
+		}
+		.SubArt1 {
+			width: 320px;
+		}
+
+		.SubArt2 {
+			width: 320px;
+		}
+
+		.SubArt3 {
+			width: 320px;
+		}
+		.art1 {
+			width: 320px;
+		}
+		.art2 {
+			width: 320px
+		}
+		.art3 {
+			width: 320px
+		}
+		.menu-style > a > button {
+			width: 39%
+		}
+		.menu-style > a > .home {
+			width: 30%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 18pt;
+		}
+		.mobi-btn {
+			font-size: 18px;
+		}
+		.middle {
+			width: 360px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 60px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 30px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  56px;
+			width: 135px;
+			padding-left: 0px;
+		}
+		.footer-contactgegevens {
+			width:  135px;
+			padding-left:  0px;
+			margin-left: 0px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 10pt;
+		}
+		.footer {
+			width:  360px;
+			margin-left: 0px;
+		}
+		
+		.mobimenuster {
+		width: 360px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 360px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 360px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 360px;
+	}
+		
+	.wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
+    	width:355px
+	}
+
+	.wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
+    	width:355px
+	}
+		
+	.container_index {
+		padding-left: 0px;
+	}
+	
+		/*Mediaqueries Leerkrachten.html*/
+	
+	#footerprikbord{
+		width:  360px!important;
+		margin-left: 0px;
+	}
+	
+	.prikbord {
+		width: 360px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.profiel {
+		width: 200px;
+		height: 400px;
+		margin-left: 70px;
+	}
+	
+	#pro-rij2 {
+		margin-left: 70px;
+	}
+	
+	.foto {
+		margin-left: 25px;
+		display: block;
+	}
+	
+	.teksttwee {
+		margin-top: 10px;
+		margin-left: 20px;
+		width: 200px;
+	}
+	
+	#links {
+		margin-top: 100px;
+		margin-left: 5px;
+	}
+	
+	span.text-content {
+		width: 200px;
+	}
+		
+	.alletext {
+		margin-left: 35px;
+		font-size: 10pt;
+		height: 375px;
+	}
+	
+	#rechts {
+		margin-top: -50px;
+		margin-left: 280px;
+		padding-bottom: 0px;
+	}
+	.button {
+		margin-top: 15px;
+		margin-left: -10px;
+	}
+	
+	.polaroid {
+		margin-left: 80px;
+	}
+		
+	.pijlterug {
+		margin-right: 10px;
+	}
+}
+@media only screen and (max-width:355px) {
+	body {
+		width: 355px;
+	}
+	
+	.navbar {
+		width: 355px;
+	}
+	
+	.bord-mid {
+			width: 355px;
+		}
+		.bord-right {
+			width: 355px;
+		}
+		.querry {
+			width: 55px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 340px;
+		}
+		.slogan {
+			width: 340px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 355px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 315px;
+		}
+
+		.SubArt2 {
+			width: 315px;
+		}
+
+		.SubArt3 {
+			width: 315px;
+		}
+		.art1 {
+			width: 315px;
+		}
+		.art2 {
+			width: 315px
+		}
+		.art3 {
+			width: 315px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 355px;
+			margin-top: 85px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 0px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  355px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
+	
+	.mobimenuster {
+		width: 355px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 355px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 355px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 355px;
+	}
+	
+	.prikbord {
+		margin-right: 0px;
+		width: 355px;
+	}
+}
+@media only screen and (max-width:327px) {
+	.bord-mid {
+			width: 327px;
+		}
+		.bord-right {
+			width: 327px;
+		}
+		.querry {
+			width: 55px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 327px;
+		}
+		.slogan {
+			width: 327px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 327px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 285px;
+		}
+
+		.SubArt2 {
+			width: 285px;
+		}
+
+		.SubArt3 {
+			width: 285px;
+		}
+		.art1 {
+			width: 285px;
+		}
+		.art2 {
+			width: 285px
+		}
+		.art3 {
+			width: 285px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 327px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 20px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  327px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
+	
+	.mobimenuster {
+		width: 327px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 327px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 327px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 327px;
+	}
+}
+@media only screen and (max-width:320px) {
+	.bord-mid {
+			width: 320px;
+		}
+		.bord-right {
+			width: 320px;
+		}
+		.querry {
+			width: 50px;
+		}
+		.logo-rightheader {
+			padding-right: 2px;
+		}
+	.header {
+			width: 320px;
+		}
+		.slogan {
+			width: 320px;
+			margin-left: 0px;
+		}
+		.slogan > h3 {
+		font-size: 15pt;
+	}
+		.top {
+			margin-left: 0px;
+			width: 320px;
+		}
+		h1 {
+			font-size: 26pt
+		}
+		.SubArt1 {
+			width: 280px;
+		}
+
+		.SubArt2 {
+			width: 280px;
+		}
+
+		.SubArt3 {
+			width: 280px;
+		}
+		.art1 {
+			width: 280px;
+		}
+		.art2 {
+			width: 280px
+		}
+		.art3 {
+			width: 280px
+		}
+		.menu-style > a > button {
+			width: 37%
+		}
+		.menu-style > a > .home {
+			width: 24%;
+		}
+		.mobi-btn1{
+			height: 60px;
+			font-size: 15pt;
+			padding-left: 3px;
+		}
+		.mobi-btn {
+			font-size: 15pt;
+		}
+		.middle {
+			width: 320px;
+		}
+		#navbar-btn-toggle1 {
+            height: 60px;
+            width: 65px;
+			border-radius: 0px!important;
+        }
+        
+        .icon-bar {
+            height: 3px!important;
+            width: 27px!important;
+            margin-left: 10px!important;
+            background-color: #fff!important;
+        }
+		.footer-adresgegevens{
+			margin-left:  30px;
+			width: 114.5px;
+		}
+		.footer-contactgegevens {
+			width:  114.5px;
+			padding-left:  0px;
+			margin-left: 20px;
+			overflow: hidden
+		}
+		.size {
+			font-size: 9pt;
+		}
+		.footer {
+			width:  375px;
+			margin-left: 0px;
+		}
+	.logo-footer > img {
+    margin-left: 5px;
+	}
+	
+	.mobimenuster {
+		width: 320px;
+	}
+	
+	.wifeo_conteneur_menu_ster {
+		width: 320px;
+	}
+	
+	.wifeo_pagemenu_ster {
+		width: 320px;
+	}
+	
+	.wifeo_rubrique_ster {
+		width: 320px;
+	}
+}

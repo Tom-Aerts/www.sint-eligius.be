@@ -5,6 +5,10 @@ html, body {
     height: auto;
 }
 
+body {
+    margin-bottom: 2%;
+}
+
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Handlee', cursive;
 }
@@ -21,6 +25,7 @@ body {
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
+    overflow-x: hidden;
 }
 
 .floatleft {
@@ -110,6 +115,9 @@ a:active {
     border: solid 10px #000;
     vertical-align: bottom;
 }
+article.sticky {
+    position: fixed;
+}
 
 .navbar-form{
     padding: 0px;
@@ -121,11 +129,11 @@ a:active {
 }
 
 .bord-mid {
+    position: static;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
     width: 600px;
-    height: auto;
     min-height: 500px;
     height: auto !important;
     /* for IE as it does not support min-height */
@@ -151,6 +159,11 @@ a:active {
 
 .hoofdartikel {
     border-bottom: solid;
+}
+
+.afbeelding-rechts {
+    max-height: 180px;
+    margin-left: 10px;
 }
 
 .SubArt1 {
@@ -312,16 +325,6 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
     visibility: hidden
 }
 
-@media screen and (min-device-width: 1024px) {
-    .wifeo_sousmenu {
-        -webkit-transition: all 0.50s ease;
-        -moz-transition: all 0.50s ease;
-        -ms-transition: all 0.50s ease;
-        -o-transition: all 0.50s ease;
-        transition: all 0.50s ease
-    }
-}
-
 .wifeo_sousmenu a {
     height: 40px;
     background-color: #006837;
@@ -347,13 +350,53 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 }
 
 
+/*Mobile menu*/
+.navbar {
+    visibility: hidden;
+}
+
+.navbar-nav > li > a {
+    color: #fff !important;
+}
+
+.menu-style {
+    background-color: #006837;
+}
+
+.menu-style > button:hover {
+    background-color: #3CA473;
+}
+
+#navbar-btn-toggle1:hover {
+    background-color: #3CA473;
+}
+
+#navbar-btn-toggle1:focus {
+    background-color: #3CA473;
+}
+
+.menu-style > button {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-style > button > a {
+    color: #fff;
+}
+
+nav > li > a:hover {
+    background-color: #3CA473;
+}
+
+
 /*Bottom*/
 .footer {
-    width: 1110px;
+    width: 1130px;
     margin-top: 23px;
     border-top: 1px solid #0665ad;
     display: block;
     float:left;
+    margin-left: 15px;
 }
 
 .logo-footer{
@@ -370,7 +413,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 .footer-adresgegevens {
     width: 400px;
     margin-left: 100px;
-    height: 100px;
+    height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
@@ -379,7 +422,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 
 .footer-contactgegevens {
     width: 400px;
-    height: 100px;
+    height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
@@ -388,23 +431,26 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 
 
 
-/*Prikbord*/
-
-
+/*Leerkrachten pagina - Prikbord*/
 /*het prikbord zelf*/
-#prikbord {
-    height:500px;
+.prikbord {
+    min-height: 520px;
+    height: auto !important;
+    /* for IE as it does not support min-height */
+    
+    height: 520px;
     width: 1130px;
-    background-image: url(../images/kurk.jpg);
+    background-image: url(../images/leerkrachten/kurk.jpg);
     border: 8px solid;
     border-radius: 25px;
     border-color: brown;
     vertical-align: bottom;
+    margin-left: 15px;
 }
 
 /*alle vakjes met de foto en korte informatie*/
 .profiel {
-    height: 220px;
+    height: 230px;
     width: 400px;
     display: inline-block;
     background-color: wheat;
@@ -419,12 +465,12 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
   height: 30px;
   width: 30px;
   display: inline-block;
-  background-image: url(../images/duimspijker.png);
+  background-image: url(../images/leerkrachten/duimspijker.png);
   margin-top: 3px;
   vertical-align: bottom;
 }
 
-.foto {
+.lkr-foto {
   height: 150px;
   width: 150px;
   background-color:;
@@ -450,7 +496,7 @@ li .menu_label + input[type=checkbox]:checked + ol > li {
 }
 
 
-/*de achterkant van het kartje*/
+/*de achterkant van het kaartje*/
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: black;
@@ -490,15 +536,15 @@ span.text-content {
 }
 
 
-/*linkse en rechte pijl voor naar de volgende paginate gaan met de effecktjes*/
+/*linkse en rechte pijl om naar de volgende pagina te gaan met de effectjes*/
 #links{
   height: 64px;
   width: 64px;
   float: left;
-  margin-top: 205px;
+  margin-top: 215px;
   margin-right: -100px;
   margin-left: 16px;
-  background-image: url(../images/pijllinks.png);
+  background-image: url(../images/leerkrachten/pijllinks.png);
   background-repeat: no-repeat;
 }
 
@@ -506,8 +552,8 @@ span.text-content {
   height: 64px;
   width: 64px;
   margin-left: 1033px;
-  margin-top: -257px;
-  background-image: url(../images/pijlrechts.png);
+  margin-top: -266px;
+  background-image: url(../images/leerkrachten/pijlrechts.png);
   background-repeat: no-repeat;
 }
 
@@ -526,27 +572,388 @@ span.text-content {
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
 }
-.ButtonHome
-{
+
+.ButtonHome {
     height: 50px;
     float: left;
     display: block;
 }
-.button
-{
-    position: absolute;;
+
+.button {
+    position: absolute;
     margin-top: -60px;
     margin-left: 80px;
     width: 210px;
 }
-.home
-{
+
+.home {
     display: block;
     float: left;
     color: white;
     font-family: 'Handlee', cursive;
 }
-.button > a
-{
+
+.button > a {
   text-decoration: none;
+}
+
+
+/* Landingspagina */
+/*Mobiel menu*/
+.mobimenuster {
+    display: none;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.wifeo_pagemenu_ster > a {
+    color:#fff;
+    text-decoration:none
+}
+
+.wifeo_pagemenu_ster > a > img {
+    margin-right: 10px;
+}
+
+.wifeo_pagemenu_ster:hover > a { 
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold
+}
+
+.wifeo_rubrique_ster > a {
+    color:#fff;
+    text-decoration:none
+}
+
+.wifeo_rubrique_ster > a > img {
+    margin-right: 10px;
+}
+
+.wifeo_rubrique_ster:hover > a {
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none
+}
+
+.wifeo_pagesousmenu_ster > a {
+    color:#fff;
+    text-decoration:none
+}
+
+.wifeo_conteneur_menu_ster {
+    border-spacing:0px
+}
+
+.wifeo_conteneur_menu_ster {
+    height:auto;
+    width:680px
+}
+
+.wifeo_pagemenu_ster, .wifeo_rubrique_ster {
+    background-color:#1E8BC3;
+    width:680px
+}
+
+.wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
+    text-align:left;
+    width:680px
+}
+
+.wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
+    background-color:#3498DB;
+    width:680px
+}
+
+.wifeo_conteneur_menu_ster a {
+    text-decoration:none;
+    display:table-cell;
+    vertical-align:middle;
+    padding:0 5px;
+    height:50px;
+    -webkit-transition:all 0.50s ease;
+    -moz-transition:all 0.50s ease;
+    -ms-transition:all 0.50s ease;
+    -o-transition:all 0.50s ease;
+    transition:all 0.50s ease
+}
+
+.wifeo_pagesousmenu_ster {
+    width:100%;
+    text-align:right;
+    display:table
+}
+
+.wifeo_sousmenu_ster {
+    max-height:0;
+    width:100%;
+    opacity:0;
+    overflow:hidden;
+    border-radius:0;
+    margin-left:0;
+    visibility: hidden
+}
+
+.wifeo_sousmenu_ster a {
+    height:50px;
+    background-color:#89C4F4;
+    font-size:12px;
+    -webkit-transition:font-size 0.50s ease;
+    -moz-transition:font-size 0.50s ease;
+    -ms-transition:font-size 0.50s ease;
+    -o-transition:font-size 0.50s ease;
+    transition:font-size 0.50s ease
+}
+
+.wifeo_sousmenu_ster a:hover {
+    background:#2574A9;
+    font-size:16px;
+    border-right:7px solid #2980B9
+} 
+
+.wifeo_sousmenu_ster-visible {
+    visibility:visible;
+    opacity:1;
+    max-height:15em;
+    display:table
+}
+
+.ster_mobimenu {
+    height: 20pt;
+    width: 20pt;
+}
+
+/* Ster - Normaal menu */
+.ster{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 937px;
+}
+
+.slideshow{
+    position: absolute;
+    left: 235px;
+    top: 267px;
+}
+
+.geschiedenis{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.algemene_info{
+	position: absolute;
+    color: #000;
+}
+
+.opvoedingsproject{
+    position: absolute;
+    top: 90px;
+    left: 290px;
+    color: #000;
+}
+
+.schoolregelement{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.agenda{
+    position: absolute;
+    top: 335px;
+    left: 60px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.verslagen{
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.ster-foto{
+    position: absolute;
+    top: 352px;
+    left: 200px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.contactformulier{
+    position: absolute;
+    left: 365px;
+    top: 300px;
+    color: #000;
+}
+
+.info{
+    position: absolute;
+    left: 240px;
+    top: 346px;
+    color: #000;
+}
+
+.leerkrachten_submenu{
+    position: absolute;
+    left: 430px;
+    top: 120px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s1ste_Leerjaar{
+    position: absolute;
+    left: -20px;
+    top: 420px;
+    transform: rotate(0deg);
+    color: #000;
+}
+.s2de_Leerjaar{
+    position: absolute;
+    left: 10px;
+    top: 460px;
+    transform: rotate(0deg);
+    color: #000;
+}
+.s3de_Leerjaar{
+    position: absolute;
+    left: 40px;
+    top: 500;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s4de_Leerjaar{
+    position: absolute;
+    left: 50px;
+    top: 225px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s5de_Leerjaar{
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.s6de_Leerjaar{
+    position: absolute;
+    left: 150px;
+    top: 140;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.Anderstaligen{
+    position: absolute;
+    left: -30px;
+    top: 130px;
+    transform: rotate(0deg);
+    color: #000;
+}
+
+.Sportenspel{
+    width: 200px;
+    position: absolute;
+    left: -30px;
+    top: 189px;
+    transform: rotate(00deg);
+    color: #000;
+}
+
+.submenu_text_ster{
+	font-size: 20pt;
+    color: #000;
+}
+
+
+/*Foto's pagina*/
+.prikbord {
+    height: 560px;
+    width: 1130px;
+    background-image: url("../images/leerkrachten/kurk.jpg");
+    border: 8px solid #A52A2A;
+    border-radius: 25px;
+    vertical-align: bottom;
+}
+
+.polaroid {
+	height: 250px;
+	width: 200px;
+	background-color:white;
+	margin-left: 60px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	vertical-align: bottom;
+	display: inline-block;
+}
+	 
+.fotopolaroid {
+    height: 180px;
+	width: 160px;
+	background-color:black;
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	vertical-align: bottom;
+	display: inline-block;
+}
+	 
+.speld {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+	background-image: url(../images/fotopagina/speld.png);
+	margin-left:90px;
+	margin-right:50;
+	margin-top:-5px;	
+}
+	 
+.pijlterug {
+    float:right;
+}
+
+.foto-big {
+    -webkit-transition: all 2s ease; /* Safari and Chrome , Dit zorgt ervoor dat er een vertraging is in de transition van de images in de polaroids als je erop klikt, zie vergroot.js voor meer info*/ 
+    -moz-transition: all 2s ease; /* Firefox */
+    -ms-transition: all 2s ease; /* IE 9 */
+    -o-transition: all 2s ease; /* Opera */
+    transition: all 2s ease;
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	width: 90%;
+	height: 99%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	margin-left:5%;
+	text-align:center;
+}
+
+.resize {
+    max-width:80%;
+}
+
+.littlepic {
+    height: 180px;
+    width : 160px;
+}
+
+.bigpic {
+    height: 100%;
+    width : auto;
 }
