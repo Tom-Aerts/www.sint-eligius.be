@@ -109,7 +109,7 @@ a:active {
     min-height: 500px;
     height: auto !important;
     /* for IE as it does not support min-height */
-    
+
     height: 500px;
     background-color: #006837;
     border: solid 10px #000;
@@ -137,7 +137,7 @@ article.sticky {
     min-height: 500px;
     height: auto !important;
     /* for IE as it does not support min-height */
-    
+
     height: 500px;
     background-color: #006837;
     border: solid 10px #000;
@@ -198,7 +198,7 @@ article.sticky {
     min-height: 500px;
     height: auto !important;
     /* for IE as it does not support min-height */
-    
+
     height: 500px;
     background-color: #006837;
     border: solid 10px #000;
@@ -222,7 +222,7 @@ article.sticky {
 #menutree li {
     list-style: none;
     /* all list item li dots invisible */
-    
+
     color: #fff;
     font-family: 'Handlee', cursive;
 }
@@ -391,42 +391,43 @@ nav > li > a:hover {
 
 /*Bottom*/
 .footer {
-    width: 1130px;
-    margin-top: 23px;
+    /*width: 1130px;
+    margin-top: 23px;*/
     border-top: 1px solid #0665ad;
-    display: block;
-    float:left;
-    margin-left: 15px;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    /*float:left;*/
+    /*margin-left: 15px;*/
 }
 
 .logo-footer{
     display: inline-block;
-    float:left;
+    /*float:left;*/
 }
 
 .logo-footer > img {
-    margin-top: 10px;
+    /*margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;*/
 }
 
 .footer-adresgegevens {
-    width: 400px;
+    /*width: 400px;
     margin-left: 100px;
     height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
-    padding-left: 140px;
+    padding-left: 140px;*/
 }
 
 .footer-contactgegevens {
-    width: 400px;
+    /*width: 400px;
     height: 110px;
     overflow: auto;
     display: inline-block;
     padding-top: 10px;
-    padding-left: 140px;
+    padding-left: 140px;*/
 }
 
 
@@ -437,7 +438,7 @@ nav > li > a:hover {
     min-height: 520px;
     height: auto !important;
     /* for IE as it does not support min-height */
-    
+
     height: 520px;
     width: 1130px;
     background-image: url(../images/leerkrachten/kurk.jpg);
@@ -456,7 +457,7 @@ nav > li > a:hover {
     background-color: wheat;
     margin-left: 100px;
     margin-top: 12px;
-    box-shadow: 5px 5px 5px #000; 
+    box-shadow: 5px 5px 5px #000;
     position: relative;
     vertical-align: bottom;
 }
@@ -602,8 +603,8 @@ span.text-content {
 /*Mobiel menu*/
 .mobimenuster {
     display: none;
-    margin-left: 130px;
-    margin-top: 50px;
+    margin: 2.5em auto 0 auto;
+    max-width: 680px;
 }
 
 .wifeo_pagemenu_ster > a {
@@ -615,7 +616,7 @@ span.text-content {
     margin-right: 10px;
 }
 
-.wifeo_pagemenu_ster:hover > a { 
+.wifeo_pagemenu_ster:hover > a {
     color:#fff;
     text-decoration:none;
     font-weight:bold
@@ -647,22 +648,22 @@ span.text-content {
 
 .wifeo_conteneur_menu_ster {
     height:auto;
-    width:680px
+    max-width:680px
 }
 
 .wifeo_pagemenu_ster, .wifeo_rubrique_ster {
     background-color:#1E8BC3;
-    width:680px
+    max-width:680px
 }
 
 .wifeo_pagemenu_ster > a, .wifeo_rubrique_ster > a {
     text-align:left;
-    width:680px
+    max-width:680px
 }
 
 .wifeo_pagemenu_ster:hover, .wifeo_rubrique_ster:hover {
     background-color:#3498DB;
-    width:680px
+    max-width:680px
 }
 
 .wifeo_conteneur_menu_ster a {
@@ -709,7 +710,7 @@ span.text-content {
     background:#2574A9;
     font-size:16px;
     border-right:7px solid #2980B9
-} 
+}
 
 .wifeo_sousmenu_ster-visible {
     visibility:visible;
@@ -725,6 +726,7 @@ span.text-content {
 
 /* Ster - Normaal menu */
 .ster{
+    font-size: 24px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -900,7 +902,7 @@ span.text-content {
 	vertical-align: bottom;
 	display: inline-block;
 }
-	 
+
 .fotopolaroid {
     height: 180px;
 	width: 160px;
@@ -911,7 +913,7 @@ span.text-content {
 	vertical-align: bottom;
 	display: inline-block;
 }
-	 
+
 .speld {
     height: 20px;
     width: 20px;
@@ -919,15 +921,15 @@ span.text-content {
 	background-image: url(../images/fotopagina/speld.png);
 	margin-left:90px;
 	margin-right:50;
-	margin-top:-5px;	
+	margin-top:-5px;
 }
-	 
+
 .pijlterug {
     float:right;
 }
 
 .foto-big {
-    -webkit-transition: all 2s ease; /* Safari and Chrome , Dit zorgt ervoor dat er een vertraging is in de transition van de images in de polaroids als je erop klikt, zie vergroot.js voor meer info*/ 
+    -webkit-transition: all 2s ease; /* Safari and Chrome , Dit zorgt ervoor dat er een vertraging is in de transition van de images in de polaroids als je erop klikt, zie vergroot.js voor meer info*/
     -moz-transition: all 2s ease; /* Firefox */
     -ms-transition: all 2s ease; /* IE 9 */
     -o-transition: all 2s ease; /* Opera */
