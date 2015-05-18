@@ -868,8 +868,8 @@ span.text-content {
 .Sportenspel{
     width: 200px;
     position: absolute;
-    left: -30px;
-    top: 189px;
+    left: 145px;
+    bottom: 15px;
     transform: rotate(00deg);
     color: #000;
 }

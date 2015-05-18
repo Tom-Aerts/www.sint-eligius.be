@@ -4,6 +4,7 @@
 	$('.schoolregelement').hide();
 	$('.agenda').hide();
 	$('.verslagen').hide();
+	$('.Sportenspel').hide();
 	$('.ster-foto').hide();
 	$('.contactformulier').hide();
 	$('.info').hide();
@@ -15,7 +16,6 @@
 	$('.s5de_Leerjaar').hide();
 	$('.s6de_Leerjaar').hide();
 	$('.Anderstaligen').hide();
-	$('.Sportenspel').hide();
 	$('.slide_een').hide();
 	$('.slide_twee').hide();
 	$('.slide_drie').hide();
@@ -38,13 +38,13 @@
 	 $('.s5de_Leerjaar').show();
 	 $('.s6de_Leerjaar').show();
 	 $('.Anderstaligen').show();
-	 $('.Sportenspel').show();
 	 });
 
 	 $('.sterLinksOnder').hover(function(){
 	 	hideAll();
 	 $('.agenda').show();
 	 $('.verslagen').show();
+	 $('.Sportenspel').show();
 	 $('.ster-foto').show();
 	 });
 
@@ -100,13 +100,13 @@
 	 $('.s5de_Leerjaar').show();
 	 $('.s6de_Leerjaar').show();
 	 $('.Anderstaligen').show();
-	 $('.Sportenspel').show();
 	 });
 
 	 $('.sterLinksOnder').click(function(){
 	 	hideAll();
 	 $('.agenda').show();
 	 $('.verslagen').show();
+	 $('.Sportenspel').show();
 	 $('.ster-foto').show();
 	 });
 
