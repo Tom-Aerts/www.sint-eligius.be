@@ -3,14 +3,12 @@
 /*Main*/
 html, body {
     height: auto;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
 }
 
 body {
     margin-bottom: 2%;
-}
-
-h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Handlee', cursive;
 }
 
 p {
@@ -36,53 +34,28 @@ body {
     float: right;
 }
 
-
-/*Top*/
-.top {
-    display: block;
+/* HEADER */
+header {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
 }
-
-.header {
-    display: block;
-    width: 500px;
-    margin: 0 auto;
-    vertical-align: center;
-    text-align: center;
+.logo {
+	display: inline-block;
+	margin: 0 1em;
 }
-
-.logo-leftheader {
-    display: inline-block;
+h1 {
+	display: inline-block;
+	font-size: 48px;
+	color: white;
 }
-
-.title {
-    display: inline-block;
+.motto {
+	font-size: 29px;
+	color: white;
 }
-
-.title > a {
-    text-decoration: none;
+.motto strong {
+	font-weight: 500;
 }
-
-.title > a > h1 {
-    color: #fff;
-    font-size: 36pt;
-}
-
-.logo-rightheader {
-    display: inline-block;
-}
-
-.slogan {
-    display: block;
-    margin: 0 auto;
-}
-
-.slogan > h3 {
-    color: #fff;
-    font-size: 22pt;
-    text-align: center;
-}
-
-
 /*Middle*/
 a {
     text-decoration: none;
@@ -98,8 +71,9 @@ a:active {
 }
 .middle {
     display: block;
+    position: relative;
     margin: 0 auto;
-    width: 1160px;
+    width: 1110px;
 }
 
 .bord-left {
